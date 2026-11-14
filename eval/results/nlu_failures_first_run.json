@@ -1,0 +1,261 @@
+[
+  {
+    "id": "h010",
+    "text": "બે પેકેટ બિસ્કિટ",
+    "gold": [
+      [
+        "?",
+        "2",
+        "pack"
+      ]
+    ],
+    "kind": "ambiguous",
+    "pred": [
+      {
+        "sku": "BISC-GLUCOSE",
+        "qty": "2",
+        "unit": "pack",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h017",
+    "text": "આદુ સો ગ્રામ",
+    "gold": [
+      [
+        "GINGER",
+        "100",
+        "g"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "GINGER",
+        "qty": "1",
+        "unit": "g",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h027",
+    "text": "બદામ સો ગ્રામ",
+    "gold": [
+      [
+        "ALMOND",
+        "100",
+        "g"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "ALMOND",
+        "qty": "1",
+        "unit": "g",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h040",
+    "text": "दो पैकेट बिस्किट",
+    "gold": [
+      [
+        "?",
+        "2",
+        "pack"
+      ]
+    ],
+    "kind": "ambiguous",
+    "pred": [
+      {
+        "sku": "BISC-GLUCOSE",
+        "qty": "2",
+        "unit": "pack",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h044",
+    "text": "मूंग की दाल एक किलो",
+    "gold": [
+      [
+        "DAL-MOONG",
+        "1",
+        "kg"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "DAL-MOONG",
+        "qty": null,
+        "unit": null,
+        "n_cand": 1,
+        "unknown": null
+      },
+      {
+        "sku": null,
+        "qty": "1",
+        "unit": "kg",
+        "n_cand": 4,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h047",
+    "text": "अदरक सौ ग्राम",
+    "gold": [
+      [
+        "GINGER",
+        "100",
+        "g"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "GINGER",
+        "qty": "1",
+        "unit": "g",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h054",
+    "text": "बादाम सौ ग्राम",
+    "gold": [
+      [
+        "ALMOND",
+        "100",
+        "g"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "ALMOND",
+        "qty": "1",
+        "unit": "g",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h066",
+    "text": "do packet biscuit",
+    "gold": [
+      [
+        "?",
+        "2",
+        "pack"
+      ]
+    ],
+    "kind": "ambiguous",
+    "pred": [
+      {
+        "sku": "BISC-GLUCOSE",
+        "qty": "2",
+        "unit": "pack",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h073",
+    "text": "adrak sau gram",
+    "gold": [
+      [
+        "GINGER",
+        "100",
+        "g"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "GINGER",
+        "qty": "1",
+        "unit": "g",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h080",
+    "text": "badam sau gram",
+    "gold": [
+      [
+        "ALMOND",
+        "100",
+        "g"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "ALMOND",
+        "qty": "1",
+        "unit": "g",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h089",
+    "text": "half a kilo tea",
+    "gold": [
+      [
+        "TEA",
+        "0.5",
+        "kg"
+      ]
+    ],
+    "kind": "normal",
+    "pred": [
+      {
+        "sku": "TEA",
+        "qty": "0.5",
+        "unit": null,
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  },
+  {
+    "id": "h097",
+    "text": "two packets of biscuits",
+    "gold": [
+      [
+        "?",
+        "2",
+        "pack"
+      ]
+    ],
+    "kind": "ambiguous",
+    "pred": [
+      {
+        "sku": "BISC-GLUCOSE",
+        "qty": "2",
+        "unit": "pack",
+        "n_cand": 1,
+        "unknown": null
+      }
+    ]
+  }
+]

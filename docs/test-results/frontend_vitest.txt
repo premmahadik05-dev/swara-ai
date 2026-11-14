@@ -1,0 +1,54 @@
+
+ RUN  v4.1.12 /home/claude/swara-ai/frontend
+
+Error: Kaboom
+    at Boom (/home/claude/swara-ai/frontend/src/components/shell.test.tsx:36:32)
+    at renderWithHooks (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/generated/idl/EventListener.js:26:30)
+    at innerInvokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:392:16)
+    at invokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:337:3)
+    at HTMLUnknownElementImpl._dispatch (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:142:17)
+Error: Kaboom
+    at Boom (/home/claude/swara-ai/frontend/src/components/shell.test.tsx:36:32)
+    at renderWithHooks (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/generated/idl/EventListener.js:26:30)
+    at innerInvokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:392:16)
+    at invokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:337:3)
+    at HTMLUnknownElementImpl._dispatch (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:142:17)
+Error: first render fails
+    at Maybe (/home/claude/swara-ai/frontend/src/components/shell.test.tsx:187:43)
+    at renderWithHooks (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/generated/idl/EventListener.js:26:30)
+    at innerInvokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:392:16)
+    at invokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:337:3)
+    at HTMLUnknownElementImpl._dispatch (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:142:17)
+Error: first render fails
+    at Maybe (/home/claude/swara-ai/frontend/src/components/shell.test.tsx:187:43)
+    at renderWithHooks (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (/home/claude/swara-ai/frontend/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/generated/idl/EventListener.js:26:30)
+    at innerInvokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:392:16)
+    at invokeEventListeners (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:337:3)
+    at HTMLUnknownElementImpl._dispatch (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/home/claude/swara-ai/frontend/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:142:17)
+
+ Test Files  50 passed (50)
+      Tests  513 passed (513)
+   Start at  21:57:21
+   Duration  71.64s (transform 1.76s, setup 3.63s, import 7.67s, tests 33.34s, environment 20.52s)
+
+EXIT 0

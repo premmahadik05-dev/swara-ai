@@ -1,0 +1,42 @@
+$ python scripts/check_update_in_place.py SWARA-AI-UPGRADE-2.6.0.zip SWARA-AI-UPGRADE-2.7.0.zip   (11 Nov 2026; the released 2.6.0 ZIP unpacked into a new install with a FAKE .env, the real 2.6.0 code started on a new database and given real activity, the 2.7.0 ZIP unzipped over it, 2.7.0 started on that data, a cash payment taken on a migrated order, then 2.6.0 started on the upgraded database)
+(the key in this .env is a placeholder written for the test; no real Gnani key was used or seen. The database holds the app's generated demo data plus six typed orders placed through the 2.6.0 API by scripts/demo_activity.py. No Razorpay key was set. This run used the delivered 2.7.0 ZIP (the same check passed 34 of 34 on the first build of the ZIP as well; see docs/VERIFICATION_REPORT.md, row 29))
+
+PASS  old zip is the 2.6.0 release
+PASS  2.6.0 starts on a new database and reports version 2.6.0
+PASS  2.6.0 took real activity (typed orders through the confirm button)
+PASS  2.6.0 data: has users, orders, order lines, stock movements
+PASS  2.6.0 data: no payment tables yet
+PASS  2.7.0 zip: contains no .env and no database file
+PASS  after unzip: .env is byte for byte the same
+PASS  after unzip: database file is byte for byte the same
+PASS  2.7.0 starts on the old data and reports version 2.7.0
+PASS  2.7.0 health: shop name from the untouched .env
+PASS  2.7.0 health: Gnani key still seen as configured
+PASS  after start: every old table keeps its row count, stock total and roles
+PASS  after start: every row of every one of the 13 old tables is unchanged (all columns compared)
+PASS  after start: .env still byte for byte the same
+PASS  after start: payments, payment_events, refunds, invoices and schema_migrations exist
+PASS  after start: migration 2.7.0-payments is recorded
+PASS  a backup of the old database was made before migrating
+PASS  the backup opens and holds the old counts
+PASS  every row of every table in the backup equals the 2.6.0 database it was taken from
+PASS  the backup has no payment tables (it is the old database)
+PASS  every old order is listed (all pages) and reports payment status none
+PASS  payments config: Razorpay is off with no keys, cash and manual UPI are not
+PASS  a payment can be started on a migrated order (201)
+PASS  the amount comes from the stored order total
+PASS  cash received: payment is paid
+PASS  an invoice can be made for the migrated order
+PASS  the order now reports payment paid
+PASS  no stock moved when the payment was taken (stock total and movements unchanged)
+PASS  order count and order totals unchanged by the payment
+PASS  after use: .env still byte for byte the same
+PASS  settings: fake Gnani key, shop name and owner e-mail read from the old .env; payment mode defaults to test; no Razorpay key
+PASS  rollback: 2.6.0 code starts on the upgraded database
+PASS  rollback: 2.6.0 lists all the orders, including the one that was paid in 2.7.0
+PASS  rollback: row counts and stock unchanged after 2.6.0 opened it
+NOTE  backup file: swara-before-2.7.0-20261111-170122.db; byte-identical to the 2.6.0 file: False (a SQLite backup copy need not be)
+
+34 of 34 checks passed
+work folder: a temporary folder, removed afterwards
+orders in the migrated database: 3071; users: 1; products: 69; stock movements: 15

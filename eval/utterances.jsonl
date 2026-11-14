@@ -1,0 +1,288 @@
+{"id": "h000", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "એક કિલો ખાંડ આપો", "gold": [["SUGAR", "1", "kg"]]}
+{"id": "h001", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "બે લિટર દૂધ જોઈએ", "gold": [["MILK", "2", "l"]]}
+{"id": "h002", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "અડધો કિલો ચા પત્તી", "gold": [["TEA", "0.5", "kg"]]}
+{"id": "h003", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "પાંચ કિલો ચોખા અને બે કિલો લોટ", "gold": [["RICE-REGULAR", "5", "kg"], ["ATTA", "2", "kg"]]}
+{"id": "h004", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો બટાકા, બે કિલો ડુંગળી, એક કિલો ટામેટા", "gold": [["POTATO", "3", "kg"], ["ONION", "2", "kg"], ["TOMATO", "1", "kg"]]}
+{"id": "h005", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "એક પેકેટ મેગી આપો", "gold": [["NOODLES", "1", "pack"]]}
+{"id": "h006", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "એક ડઝન ઈંડા", "gold": [["EGGS", "1", "dozen"]]}
+{"id": "h007", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "૨૫૦ ગ્રામ હળદર", "gold": [["TURMERIC", "250", "g"]]}
+{"id": "h008", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "દોઢ લિટર તેલ", "gold": [["OIL-GROUNDNUT", "1.5", "l"]]}
+{"id": "h009", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "એક કિલો ઘી", "gold": [["GHEE", "1", "kg"]]}
+{"id": "h010", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "બે પેકેટ બિસ્કિટ", "gold": [["BISC-GLUCOSE", "2", "pack"]]}
+{"id": "h011", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "મરચું પાવડર અડધો કિલો", "gold": [["CHILLI-POWDER", "0.5", "kg"]]}
+{"id": "h012", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ચાર લીંબુ", "gold": [["LEMON", "4", null]]}
+{"id": "h013", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "પનીર ૨૫૦ ગ્રામ", "gold": [["PANEER", "250", "g"]]}
+{"id": "h014", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "મને એક કિલો મગની દાળ આપો", "gold": [["DAL-MOONG", "1", "kg"]]}
+{"id": "h015", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "તુવેર દાળ બે કિલો", "gold": [["DAL-TOOR", "2", "kg"]]}
+{"id": "h016", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "મીઠું એક કિલો", "gold": [["SALT", "1", "kg"]]}
+{"id": "h017", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "આદુ સો ગ્રામ", "gold": [["GINGER", "100", "g"]]}
+{"id": "h018", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "લસણ અડધો કિલો", "gold": [["GARLIC", "0.5", "kg"]]}
+{"id": "h019", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "સવા કિલો ખાંડ", "gold": [["SUGAR", "1.25", "kg"]]}
+{"id": "h020", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "સાડા ત્રણ કિલો ચોખા", "gold": [["RICE-REGULAR", "3.5", "kg"]]}
+{"id": "h021", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "દહીં એક કિલો", "gold": [["CURD", "1", "kg"]]}
+{"id": "h022", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "બ્રેડ બે પેકેટ", "gold": [["BREAD", "2", "pack"]]}
+{"id": "h023", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ચોખા બે કિલો અને દૂધ ત્રણ લિટર", "gold": [["RICE-REGULAR", "2", "kg"], ["MILK", "3", "l"]]}
+{"id": "h024", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ગાંઠિયા અડધો કિલો", "gold": [["GATHIYA", "0.5", "kg"]]}
+{"id": "h025", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ખાખરા ત્રણ પેકેટ", "gold": [["KHAKHRA", "3", "pack"]]}
+{"id": "h026", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "સિંગદાણા એક કિલો", "gold": [["PEANUTS", "1", "kg"]]}
+{"id": "h027", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "બદામ સો ગ્રામ", "gold": [["ALMOND", "100", "g"]]}
+{"id": "h028", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ભાઈ મને બે કિલો બટાકા અને એક કિલો રીંગણ આપજો", "gold": [["POTATO", "2", "kg"], ["BRINJAL", "1", "kg"]]}
+{"id": "h029", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "કાકા એક લિટર સનફ્લાવર તેલ આપો", "gold": [["OIL-SUNFLOWER", "1", "l"]]}
+{"id": "h030", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "एक किलो चीनी दे दो", "gold": [["SUGAR", "1", "kg"]]}
+{"id": "h031", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "दो लीटर दूध चाहिए", "gold": [["MILK", "2", "l"]]}
+{"id": "h032", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "आधा किलो चायपत्ती", "gold": [["TEA", "0.5", "kg"]]}
+{"id": "h033", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "पाँच किलो चावल और दो किलो आटा", "gold": [["RICE-REGULAR", "5", "kg"], ["ATTA", "2", "kg"]]}
+{"id": "h034", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "तीन किलो आलू, दो किलो प्याज़, एक किलो टमाटर", "gold": [["POTATO", "3", "kg"], ["ONION", "2", "kg"], ["TOMATO", "1", "kg"]]}
+{"id": "h035", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "एक पैकेट मैगी", "gold": [["NOODLES", "1", "pack"]]}
+{"id": "h036", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "एक दर्जन अंडे", "gold": [["EGGS", "1", "dozen"]]}
+{"id": "h037", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "ढाई सौ ग्राम हल्दी", "gold": [["TURMERIC", "250", "g"]]}
+{"id": "h038", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "डेढ़ लीटर तेल", "gold": [["OIL-GROUNDNUT", "1.5", "l"]]}
+{"id": "h039", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "एक किलो घी", "gold": [["GHEE", "1", "kg"]]}
+{"id": "h040", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "दो पैकेट बिस्किट", "gold": [["BISC-GLUCOSE", "2", "pack"]]}
+{"id": "h041", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "लाल मिर्च पाउडर आधा किलो", "gold": [["CHILLI-POWDER", "0.5", "kg"]]}
+{"id": "h042", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "चार नींबू", "gold": [["LEMON", "4", null]]}
+{"id": "h043", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "पनीर दो सौ पचास ग्राम", "gold": [["PANEER", "250", "g"]]}
+{"id": "h044", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "मूंग की दाल एक किलो", "gold": [["DAL-MOONG", "1", "kg"]]}
+{"id": "h045", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "अरहर दाल दो किलो", "gold": [["DAL-TOOR", "2", "kg"]]}
+{"id": "h046", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "नमक एक किलो", "gold": [["SALT", "1", "kg"]]}
+{"id": "h047", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "अदरक सौ ग्राम", "gold": [["GINGER", "100", "g"]]}
+{"id": "h048", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "लहसुन आधा किलो", "gold": [["GARLIC", "0.5", "kg"]]}
+{"id": "h049", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "सवा किलो चीनी", "gold": [["SUGAR", "1.25", "kg"]]}
+{"id": "h050", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "साढ़े तीन किलो चावल", "gold": [["RICE-REGULAR", "3.5", "kg"]]}
+{"id": "h051", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "दही एक किलो", "gold": [["CURD", "1", "kg"]]}
+{"id": "h052", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "ब्रेड दो पैकेट", "gold": [["BREAD", "2", "pack"]]}
+{"id": "h053", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "मूंगफली एक किलो", "gold": [["PEANUTS", "1", "kg"]]}
+{"id": "h054", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "बादाम सौ ग्राम", "gold": [["ALMOND", "100", "g"]]}
+{"id": "h055", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "भैया दो किलो बैंगन और एक किलो भिंडी देना", "gold": [["BRINJAL", "2", "kg"], ["OKRA", "1", "kg"]]}
+{"id": "h056", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "bhaiya ek kilo cheeni dena", "gold": [["SUGAR", "1", "kg"]]}
+{"id": "h057", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "do litre doodh chahiye", "gold": [["MILK", "2", "l"]]}
+{"id": "h058", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "aadha kilo chai patti", "gold": [["TEA", "0.5", "kg"]]}
+{"id": "h059", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "paanch kilo chawal aur do kilo atta", "gold": [["RICE-REGULAR", "5", "kg"], ["ATTA", "2", "kg"]]}
+{"id": "h060", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "teen kilo aloo, do kilo pyaaz, ek kilo tamatar", "gold": [["POTATO", "3", "kg"], ["ONION", "2", "kg"], ["TOMATO", "1", "kg"]]}
+{"id": "h061", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "ek packet maggi dena", "gold": [["NOODLES", "1", "pack"]]}
+{"id": "h062", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "ek dozen ande", "gold": [["EGGS", "1", "dozen"]]}
+{"id": "h063", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "dhai sau gram haldi", "gold": [["TURMERIC", "250", "g"]]}
+{"id": "h064", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "dedh litre tel", "gold": [["OIL-GROUNDNUT", "1.5", "l"]]}
+{"id": "h065", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "ek kilo ghee", "gold": [["GHEE", "1", "kg"]]}
+{"id": "h066", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "do packet biscuit", "gold": [["BISC-GLUCOSE", "2", "pack"]]}
+{"id": "h067", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "lal mirch powder aadha kilo", "gold": [["CHILLI-POWDER", "0.5", "kg"]]}
+{"id": "h068", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "char nimbu", "gold": [["LEMON", "4", null]]}
+{"id": "h069", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "paneer 250 gram", "gold": [["PANEER", "250", "g"]]}
+{"id": "h070", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "moong dal ek kilo", "gold": [["DAL-MOONG", "1", "kg"]]}
+{"id": "h071", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "toor dal do kilo", "gold": [["DAL-TOOR", "2", "kg"]]}
+{"id": "h072", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "namak ek kilo", "gold": [["SALT", "1", "kg"]]}
+{"id": "h073", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "adrak sau gram", "gold": [["GINGER", "100", "g"]]}
+{"id": "h074", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "lehsun aadha kilo", "gold": [["GARLIC", "0.5", "kg"]]}
+{"id": "h075", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "sava kilo cheeni", "gold": [["SUGAR", "1.25", "kg"]]}
+{"id": "h076", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "saade teen kilo chawal", "gold": [["RICE-REGULAR", "3.5", "kg"]]}
+{"id": "h077", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "dahi ek kilo", "gold": [["CURD", "1", "kg"]]}
+{"id": "h078", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "bread do packet", "gold": [["BREAD", "2", "pack"]]}
+{"id": "h079", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "moongfali ek kilo", "gold": [["PEANUTS", "1", "kg"]]}
+{"id": "h080", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "badam sau gram", "gold": [["ALMOND", "100", "g"]]}
+{"id": "h081", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "bhai 2 kilo basmati chawal", "gold": [["RICE-BASMATI", "2", "kg"]]}
+{"id": "h082", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "5 kg atta aur 2 kg cheeni aur 1 litre doodh", "gold": [["ATTA", "5", "kg"], ["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "h083", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "ek kilo besan", "gold": [["BESAN", "1", "kg"]]}
+{"id": "h084", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "poha aadha kilo", "gold": [["POHA", "0.5", "kg"]]}
+{"id": "h085", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "agarbatti do packet", "gold": [["AGARBATTI", "2", "pack"]]}
+{"id": "h086", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "uncle mujhe teen kilo bhindi aur ek kilo baingan chahiye", "gold": [["OKRA", "3", "kg"], ["BRINJAL", "1", "kg"]]}
+{"id": "h087", "set": "handwritten", "lang": "en", "kind": "normal", "text": "one kilo sugar please", "gold": [["SUGAR", "1", "kg"]]}
+{"id": "h088", "set": "handwritten", "lang": "en", "kind": "normal", "text": "two litres of milk", "gold": [["MILK", "2", "l"]]}
+{"id": "h089", "set": "handwritten", "lang": "en", "kind": "normal", "text": "half a kilo tea", "gold": [["TEA", "0.5", "kg"]]}
+{"id": "h090", "set": "handwritten", "lang": "en", "kind": "normal", "text": "five kg rice and two kg flour", "gold": [["RICE-REGULAR", "5", "kg"], ["ATTA", "2", "kg"]]}
+{"id": "h091", "set": "handwritten", "lang": "en", "kind": "normal", "text": "three kilos potatoes, two kilos onions and one kilo tomatoes", "gold": [["POTATO", "3", "kg"], ["ONION", "2", "kg"], ["TOMATO", "1", "kg"]]}
+{"id": "h092", "set": "handwritten", "lang": "en", "kind": "normal", "text": "one packet of noodles", "gold": [["NOODLES", "1", "pack"]]}
+{"id": "h093", "set": "handwritten", "lang": "en", "kind": "normal", "text": "a dozen eggs", "gold": [["EGGS", "1", "dozen"]]}
+{"id": "h094", "set": "handwritten", "lang": "en", "kind": "normal", "text": "250 grams turmeric", "gold": [["TURMERIC", "250", "g"]]}
+{"id": "h095", "set": "handwritten", "lang": "en", "kind": "normal", "text": "one and a half litres of oil", "gold": [["OIL-GROUNDNUT", "1.5", "l"]]}
+{"id": "h096", "set": "handwritten", "lang": "en", "kind": "normal", "text": "1 kg ghee", "gold": [["GHEE", "1", "kg"]]}
+{"id": "h097", "set": "handwritten", "lang": "en", "kind": "normal", "text": "two packets of biscuits", "gold": [["BISC-GLUCOSE", "2", "pack"]]}
+{"id": "h098", "set": "handwritten", "lang": "en", "kind": "normal", "text": "red chilli powder half kg", "gold": [["CHILLI-POWDER", "0.5", "kg"]]}
+{"id": "h099", "set": "handwritten", "lang": "en", "kind": "normal", "text": "four lemons", "gold": [["LEMON", "4", null]]}
+{"id": "h100", "set": "handwritten", "lang": "en", "kind": "normal", "text": "paneer 250 grams", "gold": [["PANEER", "250", "g"]]}
+{"id": "h101", "set": "handwritten", "lang": "en", "kind": "normal", "text": "1 kg moong dal", "gold": [["DAL-MOONG", "1", "kg"]]}
+{"id": "h102", "set": "handwritten", "lang": "en", "kind": "normal", "text": "2 kg toor dal", "gold": [["DAL-TOOR", "2", "kg"]]}
+{"id": "h103", "set": "handwritten", "lang": "en", "kind": "normal", "text": "one kg salt", "gold": [["SALT", "1", "kg"]]}
+{"id": "h104", "set": "handwritten", "lang": "en", "kind": "normal", "text": "100 grams ginger", "gold": [["GINGER", "100", "g"]]}
+{"id": "h105", "set": "handwritten", "lang": "en", "kind": "normal", "text": "half kg garlic", "gold": [["GARLIC", "0.5", "kg"]]}
+{"id": "h106", "set": "handwritten", "lang": "en", "kind": "normal", "text": "a quarter kilo almonds", "gold": [["ALMOND", "0.25", "kg"]]}
+{"id": "h107", "set": "handwritten", "lang": "en", "kind": "normal", "text": "can I get 2 kg basmati rice and a bottle of cold drink", "gold": [["RICE-BASMATI", "2", "kg"], ["COLD-DRINK", "1", "bottle"]]}
+{"id": "h108", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "મને 2 kg sugar અને 1 litre milk જોઈએ", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "h109", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "ભાઈ 5 kg rice અને 2 kg atta આપજો", "gold": [["RICE-REGULAR", "5", "kg"], ["ATTA", "2", "kg"]]}
+{"id": "h110", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "mane 2 kilo batata ane 1 kilo dungri aapo", "gold": [["POTATO", "2", "kg"], ["ONION", "1", "kg"]]}
+{"id": "h111", "set": "handwritten", "lang": "gu", "kind": "normal", "text": "mane ek kilo khand joie", "gold": [["SUGAR", "1", "kg"]]}
+{"id": "h112", "set": "handwritten", "lang": "hi", "kind": "normal", "text": "मुझे 2 kilo sugar और 1 litre milk चाहिए", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "h113", "set": "handwritten", "lang": "hinglish", "kind": "normal", "text": "bhai 1 kg sugar aur ek packet bread dena", "gold": [["SUGAR", "1", "kg"], ["BREAD", "1", "pack"]]}
+{"id": "h114", "set": "handwritten", "lang": "gu", "kind": "ambiguous", "text": "એક કિલો દાળ આપો", "gold": [["?", "1", "kg"]]}
+{"id": "h115", "set": "handwritten", "lang": "hi", "kind": "ambiguous", "text": "दो किलो दाल चाहिए", "gold": [["?", "2", "kg"]]}
+{"id": "h116", "set": "handwritten", "lang": "hinglish", "kind": "ambiguous", "text": "ek kilo daal dena", "gold": [["?", "1", "kg"]]}
+{"id": "h117", "set": "handwritten", "lang": "en", "kind": "ambiguous", "text": "one kg dal please", "gold": [["?", "1", "kg"]]}
+{"id": "h118", "set": "handwritten", "lang": "en", "kind": "no_item", "text": "hello how are you", "gold": []}
+{"id": "h119", "set": "handwritten", "lang": "en", "kind": "no_item", "text": "thank you very much", "gold": []}
+{"id": "h120", "set": "handwritten", "lang": "hinglish", "kind": "no_item", "text": "kitna hua", "gold": []}
+{"id": "h121", "set": "handwritten", "lang": "hinglish", "kind": "no_item", "text": "namaste bhaiya", "gold": []}
+{"id": "h122", "set": "handwritten", "lang": "gu", "kind": "no_item", "text": "કેમ છો", "gold": []}
+{"id": "h123", "set": "handwritten", "lang": "hi", "kind": "no_item", "text": "आप कैसे हैं", "gold": []}
+{"id": "h124", "set": "handwritten", "lang": "en", "kind": "no_item", "text": "2 kilo dragonfruit", "gold": []}
+{"id": "h125", "set": "handwritten", "lang": "hinglish", "kind": "no_item", "text": "ek packet xyzzy dena", "gold": []}
+{"id": "h126", "set": "handwritten", "lang": "hi", "kind": "no_item", "text": "हवाई जहाज़ दे दो", "gold": []}
+{"id": "h127", "set": "handwritten", "lang": "gu", "kind": "no_item", "text": "બે કિલો કીવી", "gold": []}
+{"id": "t000", "set": "templated", "lang": "gu", "kind": "normal", "text": "બે કિલો લસણ આપો", "gold": [["GARLIC", "2", "kg"]]}
+{"id": "t001", "set": "templated", "lang": "gu", "kind": "normal", "text": "દોઢ કિલો હળદર આપો", "gold": [["TURMERIC", "1.5", "kg"]]}
+{"id": "t002", "set": "templated", "lang": "gu", "kind": "normal", "text": "બે કિલો આદુ આપો", "gold": [["GINGER", "2", "kg"]]}
+{"id": "t003", "set": "templated", "lang": "gu", "kind": "normal", "text": "અઢી કિલો ડિટર્જન્ટ પાવડર આપો", "gold": [["DETERGENT", "2.5", "kg"]]}
+{"id": "t004", "set": "templated", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો ભીંડા આપો", "gold": [["OKRA", "3", "kg"]]}
+{"id": "t005", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો ધાણાજીરું આપો", "gold": [["DHANA-JEERA", "0.5", "kg"]]}
+{"id": "t006", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો અડદની દાળ આપો", "gold": [["DAL-URAD", "1", "kg"]]}
+{"id": "t007", "set": "templated", "lang": "gu", "kind": "normal", "text": "અઢી કિલો ચણાની દાળ આપો", "gold": [["DAL-CHANA", "2.5", "kg"]]}
+{"id": "t008", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો ગાંઠિયા આપો", "gold": [["GATHIYA", "1", "kg"]]}
+{"id": "t009", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો લીંબુ આપો", "gold": [["LEMON", "0.5", "kg"]]}
+{"id": "t010", "set": "templated", "lang": "gu", "kind": "normal", "text": "અઢી કિલો રાઈ આપો", "gold": [["MUSTARD-SEEDS", "2.5", "kg"]]}
+{"id": "t011", "set": "templated", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો પૌંઆ આપો", "gold": [["POHA", "3", "kg"]]}
+{"id": "t012", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો બદામ આપો", "gold": [["ALMOND", "0.5", "kg"]]}
+{"id": "t013", "set": "templated", "lang": "gu", "kind": "normal", "text": "દોઢ લિટર સનફ્લાવર તેલ આપો", "gold": [["OIL-SUNFLOWER", "1.5", "l"]]}
+{"id": "t014", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો ચણાનો લોટ આપો", "gold": [["BESAN", "1", "kg"]]}
+{"id": "t015", "set": "templated", "lang": "gu", "kind": "normal", "text": "અઢી કિલો ઘઉંનો લોટ આપો", "gold": [["ATTA", "2.5", "kg"]]}
+{"id": "t016", "set": "templated", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો મીઠું આપો", "gold": [["SALT", "3", "kg"]]}
+{"id": "t017", "set": "templated", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો ડુંગળી આપો", "gold": [["ONION", "3", "kg"]]}
+{"id": "t018", "set": "templated", "lang": "gu", "kind": "normal", "text": "બે લિટર દૂધ આપો", "gold": [["MILK", "2", "l"]]}
+{"id": "t019", "set": "templated", "lang": "gu", "kind": "normal", "text": "દોઢ લિટર સરસવનું તેલ આપો", "gold": [["OIL-MUSTARD", "1.5", "l"]]}
+{"id": "t020", "set": "templated", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો બાસમતી ચોખા આપો", "gold": [["RICE-BASMATI", "3", "kg"]]}
+{"id": "t021", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો રીંગણ આપો", "gold": [["BRINJAL", "1", "kg"]]}
+{"id": "t022", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો જીરું આપો", "gold": [["CUMIN", "1", "kg"]]}
+{"id": "t023", "set": "templated", "lang": "gu", "kind": "normal", "text": "દોઢ કિલો રાજમા આપો", "gold": [["RAJMA", "1.5", "kg"]]}
+{"id": "t024", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો ટામેટા આપો", "gold": [["TOMATO", "1", "kg"]]}
+{"id": "t025", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો દહીં આપો", "gold": [["CURD", "0.5", "kg"]]}
+{"id": "t026", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો રવો આપો", "gold": [["SUJI", "1", "kg"]]}
+{"id": "t027", "set": "templated", "lang": "gu", "kind": "normal", "text": "ત્રણ કિલો ચોખા આપો", "gold": [["RICE-REGULAR", "3", "kg"]]}
+{"id": "t028", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો ગોળ આપો", "gold": [["JAGGERY", "0.5", "kg"]]}
+{"id": "t029", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો કિસમિસ આપો", "gold": [["RAISINS", "1", "kg"]]}
+{"id": "t030", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો લાલ મરચું આપો", "gold": [["CHILLI-POWDER", "1", "kg"]]}
+{"id": "t031", "set": "templated", "lang": "gu", "kind": "normal", "text": "અઢી કિલો ઘી આપો", "gold": [["GHEE", "2.5", "kg"]]}
+{"id": "t032", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો મેંદો આપો", "gold": [["MAIDA", "1", "kg"]]}
+{"id": "t033", "set": "templated", "lang": "gu", "kind": "normal", "text": "બે કિલો બટાકા આપો", "gold": [["POTATO", "2", "kg"]]}
+{"id": "t034", "set": "templated", "lang": "gu", "kind": "normal", "text": "બે કિલો તુવેરની દાળ આપો", "gold": [["DAL-TOOR", "2", "kg"]]}
+{"id": "t035", "set": "templated", "lang": "gu", "kind": "normal", "text": "એક કિલો કાબુલી ચણા આપો", "gold": [["KABULI", "1", "kg"]]}
+{"id": "t036", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો મમરા આપો", "gold": [["MAMRA", "0.5", "kg"]]}
+{"id": "t037", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો લિટર સીંગતેલ આપો", "gold": [["OIL-GROUNDNUT", "0.5", "l"]]}
+{"id": "t038", "set": "templated", "lang": "gu", "kind": "normal", "text": "અઢી કિલો લીલા મરચાં આપો", "gold": [["GREEN-CHILLI", "2.5", "kg"]]}
+{"id": "t039", "set": "templated", "lang": "gu", "kind": "normal", "text": "અડધો કિલો સીંગદાણા આપો", "gold": [["PEANUTS", "0.5", "kg"]]}
+{"id": "t040", "set": "templated", "lang": "hi", "kind": "normal", "text": "तीन किलो आलू दे दो", "gold": [["POTATO", "3", "kg"]]}
+{"id": "t041", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो बेसन दे दो", "gold": [["BESAN", "1", "kg"]]}
+{"id": "t042", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो लाल मिर्च दे दो", "gold": [["CHILLI-POWDER", "2", "kg"]]}
+{"id": "t043", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो गाठिया दे दो", "gold": [["GATHIYA", "2", "kg"]]}
+{"id": "t044", "set": "templated", "lang": "hi", "kind": "normal", "text": "आधा किलो उड़द दाल दे दो", "gold": [["DAL-URAD", "0.5", "kg"]]}
+{"id": "t045", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ किलो नमक दे दो", "gold": [["SALT", "1.5", "kg"]]}
+{"id": "t046", "set": "templated", "lang": "hi", "kind": "normal", "text": "ढाई किलो घी दे दो", "gold": [["GHEE", "2.5", "kg"]]}
+{"id": "t047", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ किलो सूजी दे दो", "gold": [["SUJI", "1.5", "kg"]]}
+{"id": "t048", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक लीटर सूरजमुखी तेल दे दो", "gold": [["OIL-SUNFLOWER", "1", "l"]]}
+{"id": "t049", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो जीरा दे दो", "gold": [["CUMIN", "1", "kg"]]}
+{"id": "t050", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो चावल दे दो", "gold": [["RICE-REGULAR", "2", "kg"]]}
+{"id": "t051", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो डिटर्जेंट पाउडर दे दो", "gold": [["DETERGENT", "2", "kg"]]}
+{"id": "t052", "set": "templated", "lang": "hi", "kind": "normal", "text": "आधा किलो मुरमुरे दे दो", "gold": [["MAMRA", "0.5", "kg"]]}
+{"id": "t053", "set": "templated", "lang": "hi", "kind": "normal", "text": "तीन किलो साबूदाना दे दो", "gold": [["SABUDANA", "3", "kg"]]}
+{"id": "t054", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो भिंडी दे दो", "gold": [["OKRA", "1", "kg"]]}
+{"id": "t055", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ लीटर दूध दे दो", "gold": [["MILK", "1.5", "l"]]}
+{"id": "t056", "set": "templated", "lang": "hi", "kind": "normal", "text": "तीन किलो मैदा दे दो", "gold": [["MAIDA", "3", "kg"]]}
+{"id": "t057", "set": "templated", "lang": "hi", "kind": "normal", "text": "तीन किलो हरी मिर्च दे दो", "gold": [["GREEN-CHILLI", "3", "kg"]]}
+{"id": "t058", "set": "templated", "lang": "hi", "kind": "normal", "text": "आधा किलो बासमती चावल दे दो", "gold": [["RICE-BASMATI", "0.5", "kg"]]}
+{"id": "t059", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो राजमा दे दो", "gold": [["RAJMA", "1", "kg"]]}
+{"id": "t060", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो चीनी दे दो", "gold": [["SUGAR", "1", "kg"]]}
+{"id": "t061", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो धनिया जीरा पाउडर दे दो", "gold": [["DHANA-JEERA", "1", "kg"]]}
+{"id": "t062", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो हल्दी दे दो", "gold": [["TURMERIC", "2", "kg"]]}
+{"id": "t063", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ किलो राई दे दो", "gold": [["MUSTARD-SEEDS", "1.5", "kg"]]}
+{"id": "t064", "set": "templated", "lang": "hi", "kind": "normal", "text": "ढाई किलो पोहा दे दो", "gold": [["POHA", "2.5", "kg"]]}
+{"id": "t065", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो प्याज दे दो", "gold": [["ONION", "2", "kg"]]}
+{"id": "t066", "set": "templated", "lang": "hi", "kind": "normal", "text": "एक किलो गुड़ दे दो", "gold": [["JAGGERY", "1", "kg"]]}
+{"id": "t067", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ लीटर सरसों का तेल दे दो", "gold": [["OIL-MUSTARD", "1.5", "l"]]}
+{"id": "t068", "set": "templated", "lang": "hi", "kind": "normal", "text": "तीन किलो मूंगफली दाना दे दो", "gold": [["PEANUTS", "3", "kg"]]}
+{"id": "t069", "set": "templated", "lang": "hi", "kind": "normal", "text": "तीन किलो काबुली चना दे दो", "gold": [["KABULI", "3", "kg"]]}
+{"id": "t070", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ किलो मूंग दाल दे दो", "gold": [["DAL-MOONG", "1.5", "kg"]]}
+{"id": "t071", "set": "templated", "lang": "hi", "kind": "normal", "text": "आधा किलो अदरक दे दो", "gold": [["GINGER", "0.5", "kg"]]}
+{"id": "t072", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो फूलगोभी दे दो", "gold": [["CAULIFLOWER", "2", "kg"]]}
+{"id": "t073", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ किलो पनीर दे दो", "gold": [["PANEER", "1.5", "kg"]]}
+{"id": "t074", "set": "templated", "lang": "hi", "kind": "normal", "text": "आधा किलो चना दाल दे दो", "gold": [["DAL-CHANA", "0.5", "kg"]]}
+{"id": "t075", "set": "templated", "lang": "hi", "kind": "normal", "text": "डेढ़ किलो लहसुन दे दो", "gold": [["GARLIC", "1.5", "kg"]]}
+{"id": "t076", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो टमाटर दे दो", "gold": [["TOMATO", "2", "kg"]]}
+{"id": "t077", "set": "templated", "lang": "hi", "kind": "normal", "text": "आधा लीटर मूंगफली का तेल दे दो", "gold": [["OIL-GROUNDNUT", "0.5", "l"]]}
+{"id": "t078", "set": "templated", "lang": "hi", "kind": "normal", "text": "दो किलो किशमिश दे दो", "gold": [["RAISINS", "2", "kg"]]}
+{"id": "t079", "set": "templated", "lang": "hi", "kind": "normal", "text": "ढाई किलो नींबू दे दो", "gold": [["LEMON", "2.5", "kg"]]}
+{"id": "t080", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "do kilo toor dal chahiye", "gold": [["DAL-TOOR", "2", "kg"]]}
+{"id": "t081", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dhai litre sunflower oil chahiye", "gold": [["OIL-SUNFLOWER", "2.5", "l"]]}
+{"id": "t082", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo rajma chahiye", "gold": [["RAJMA", "1", "kg"]]}
+{"id": "t083", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo rai chahiye", "gold": [["MUSTARD-SEEDS", "1", "kg"]]}
+{"id": "t084", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo sugar chahiye", "gold": [["SUGAR", "3", "kg"]]}
+{"id": "t085", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "aadha kilo urad dal chahiye", "gold": [["DAL-URAD", "0.5", "kg"]]}
+{"id": "t086", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "aadha kilo moong dal chahiye", "gold": [["DAL-MOONG", "0.5", "kg"]]}
+{"id": "t087", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "do kilo turmeric chahiye", "gold": [["TURMERIC", "2", "kg"]]}
+{"id": "t088", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo almond chahiye", "gold": [["ALMOND", "1", "kg"]]}
+{"id": "t089", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo paneer chahiye", "gold": [["PANEER", "1", "kg"]]}
+{"id": "t090", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "do kilo lemon chahiye", "gold": [["LEMON", "2", "kg"]]}
+{"id": "t091", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo suji chahiye", "gold": [["SUJI", "3", "kg"]]}
+{"id": "t092", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo potato chahiye", "gold": [["POTATO", "3", "kg"]]}
+{"id": "t093", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dedh kilo maida chahiye", "gold": [["MAIDA", "1.5", "kg"]]}
+{"id": "t094", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dedh kilo brinjal chahiye", "gold": [["BRINJAL", "1.5", "kg"]]}
+{"id": "t095", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "do kilo green chilli chahiye", "gold": [["GREEN-CHILLI", "2", "kg"]]}
+{"id": "t096", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo basmati rice chahiye", "gold": [["RICE-BASMATI", "1", "kg"]]}
+{"id": "t097", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo jaggery chahiye", "gold": [["JAGGERY", "3", "kg"]]}
+{"id": "t098", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "do kilo sabudana chahiye", "gold": [["SABUDANA", "2", "kg"]]}
+{"id": "t099", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "aadha kilo mamra chahiye", "gold": [["MAMRA", "0.5", "kg"]]}
+{"id": "t100", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo curd chahiye", "gold": [["CURD", "3", "kg"]]}
+{"id": "t101", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dhai litre milk chahiye", "gold": [["MILK", "2.5", "l"]]}
+{"id": "t102", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dhai kilo red chilli powder chahiye", "gold": [["CHILLI-POWDER", "2.5", "kg"]]}
+{"id": "t103", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dhai kilo okra chahiye", "gold": [["OKRA", "2.5", "kg"]]}
+{"id": "t104", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dedh kilo kabuli chana chahiye", "gold": [["KABULI", "1.5", "kg"]]}
+{"id": "t105", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dedh kilo peanuts chahiye", "gold": [["PEANUTS", "1.5", "kg"]]}
+{"id": "t106", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "do kilo gathiya chahiye", "gold": [["GATHIYA", "2", "kg"]]}
+{"id": "t107", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dedh kilo detergent chahiye", "gold": [["DETERGENT", "1.5", "kg"]]}
+{"id": "t108", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo tomato chahiye", "gold": [["TOMATO", "1", "kg"]]}
+{"id": "t109", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo cauliflower chahiye", "gold": [["CAULIFLOWER", "1", "kg"]]}
+{"id": "t110", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "aadha kilo raisins chahiye", "gold": [["RAISINS", "0.5", "kg"]]}
+{"id": "t111", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo chana dal chahiye", "gold": [["DAL-CHANA", "3", "kg"]]}
+{"id": "t112", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dhai kilo garlic chahiye", "gold": [["GARLIC", "2.5", "kg"]]}
+{"id": "t113", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "teen kilo atta chahiye", "gold": [["ATTA", "3", "kg"]]}
+{"id": "t114", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo ginger chahiye", "gold": [["GINGER", "1", "kg"]]}
+{"id": "t115", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek kilo onion chahiye", "gold": [["ONION", "1", "kg"]]}
+{"id": "t116", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dedh kilo ghee chahiye", "gold": [["GHEE", "1.5", "kg"]]}
+{"id": "t117", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "dhai kilo dhana jeera chahiye", "gold": [["DHANA-JEERA", "2.5", "kg"]]}
+{"id": "t118", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "ek litre mustard oil chahiye", "gold": [["OIL-MUSTARD", "1", "l"]]}
+{"id": "t119", "set": "templated", "lang": "hinglish", "kind": "normal", "text": "aadha kilo salt chahiye", "gold": [["SALT", "0.5", "kg"]]}
+{"id": "t120", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 kilo Besan please", "gold": [["BESAN", "1.5", "kg"]]}
+{"id": "t121", "set": "templated", "lang": "en", "kind": "normal", "text": "one litre Sunflower Oil please", "gold": [["OIL-SUNFLOWER", "1", "l"]]}
+{"id": "t122", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 litre Mustard Oil please", "gold": [["OIL-MUSTARD", "1.5", "l"]]}
+{"id": "t123", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 kilo Sabudana please", "gold": [["SABUDANA", "1.5", "kg"]]}
+{"id": "t124", "set": "templated", "lang": "en", "kind": "normal", "text": "one kilo Detergent Powder please", "gold": [["DETERGENT", "1", "kg"]]}
+{"id": "t125", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Gathiya please", "gold": [["GATHIYA", "3", "kg"]]}
+{"id": "t126", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 kilo Garlic please", "gold": [["GARLIC", "1.5", "kg"]]}
+{"id": "t127", "set": "templated", "lang": "en", "kind": "normal", "text": "one kilo Green Chillies please", "gold": [["GREEN-CHILLI", "1", "kg"]]}
+{"id": "t128", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Curd please", "gold": [["CURD", "0.5", "kg"]]}
+{"id": "t129", "set": "templated", "lang": "en", "kind": "normal", "text": "one kilo Wheat Flour please", "gold": [["ATTA", "1", "kg"]]}
+{"id": "t130", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Almonds please", "gold": [["ALMOND", "2", "kg"]]}
+{"id": "t131", "set": "templated", "lang": "en", "kind": "normal", "text": "2.5 kilo Ghee please", "gold": [["GHEE", "2.5", "kg"]]}
+{"id": "t132", "set": "templated", "lang": "en", "kind": "normal", "text": "one litre Milk please", "gold": [["MILK", "1", "l"]]}
+{"id": "t133", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Semolina please", "gold": [["SUJI", "0.5", "kg"]]}
+{"id": "t134", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 kilo Cauliflower please", "gold": [["CAULIFLOWER", "1.5", "kg"]]}
+{"id": "t135", "set": "templated", "lang": "en", "kind": "normal", "text": "2.5 kilo Sugar please", "gold": [["SUGAR", "2.5", "kg"]]}
+{"id": "t136", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Cumin Seeds please", "gold": [["CUMIN", "0.5", "kg"]]}
+{"id": "t137", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Turmeric Powder please", "gold": [["TURMERIC", "3", "kg"]]}
+{"id": "t138", "set": "templated", "lang": "en", "kind": "normal", "text": "one kilo Kabuli Chana please", "gold": [["KABULI", "1", "kg"]]}
+{"id": "t139", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Onion please", "gold": [["ONION", "3", "kg"]]}
+{"id": "t140", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Rice please", "gold": [["RICE-REGULAR", "3", "kg"]]}
+{"id": "t141", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Ginger please", "gold": [["GINGER", "2", "kg"]]}
+{"id": "t142", "set": "templated", "lang": "en", "kind": "normal", "text": "2.5 litre Groundnut Oil please", "gold": [["OIL-GROUNDNUT", "2.5", "l"]]}
+{"id": "t143", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 kilo Paneer please", "gold": [["PANEER", "1.5", "kg"]]}
+{"id": "t144", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Peanuts please", "gold": [["PEANUTS", "2", "kg"]]}
+{"id": "t145", "set": "templated", "lang": "en", "kind": "normal", "text": "1.5 kilo Urad Dal please", "gold": [["DAL-URAD", "1.5", "kg"]]}
+{"id": "t146", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Raisins please", "gold": [["RAISINS", "2", "kg"]]}
+{"id": "t147", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Lemon please", "gold": [["LEMON", "3", "kg"]]}
+{"id": "t148", "set": "templated", "lang": "en", "kind": "normal", "text": "2.5 kilo Tomato please", "gold": [["TOMATO", "2.5", "kg"]]}
+{"id": "t149", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Jaggery please", "gold": [["JAGGERY", "0.5", "kg"]]}
+{"id": "t150", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Basmati Rice please", "gold": [["RICE-BASMATI", "0.5", "kg"]]}
+{"id": "t151", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Moong Dal please", "gold": [["DAL-MOONG", "2", "kg"]]}
+{"id": "t152", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Rajma please", "gold": [["RAJMA", "3", "kg"]]}
+{"id": "t153", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Mustard Seeds please", "gold": [["MUSTARD-SEEDS", "0.5", "kg"]]}
+{"id": "t154", "set": "templated", "lang": "en", "kind": "normal", "text": "2.5 kilo Poha please", "gold": [["POHA", "2.5", "kg"]]}
+{"id": "t155", "set": "templated", "lang": "en", "kind": "normal", "text": "three kilo Brinjal please", "gold": [["BRINJAL", "3", "kg"]]}
+{"id": "t156", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Potato please", "gold": [["POTATO", "2", "kg"]]}
+{"id": "t157", "set": "templated", "lang": "en", "kind": "normal", "text": "2.5 kilo Puffed Rice please", "gold": [["MAMRA", "2.5", "kg"]]}
+{"id": "t158", "set": "templated", "lang": "en", "kind": "normal", "text": "half kilo Maida please", "gold": [["MAIDA", "0.5", "kg"]]}
+{"id": "t159", "set": "templated", "lang": "en", "kind": "normal", "text": "two kilo Dhana Jeera Powder please", "gold": [["DHANA-JEERA", "2", "kg"]]}

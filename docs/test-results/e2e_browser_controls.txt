@@ -1,0 +1,10 @@
+$ scripts/e2e_browser.py http://localhost:8000 --db <throw-away db> --owner-email owner.test@example.com --only-controls
+(run on the final 2.7.0 tree, 11 Nov 2026, on an empty database; no Gnani key)
+PASS  links (visitor): every link on 6 pages goes somewhere real
+PASS  buttons (visitor): clicked 10 enabled buttons on 6 pages and each one did something
+PASS  links (owner): every link on 15 pages goes somewhere real
+PASS  buttons (owner): clicked 221 enabled buttons on 15 pages and each one did something
+
+no unexpected console errors, warnings, failed requests or HTTP errors
+
+4 of 4 checks passed

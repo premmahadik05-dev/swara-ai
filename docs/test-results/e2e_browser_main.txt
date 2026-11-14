@@ -1,0 +1,227 @@
+$ scripts/e2e_browser.py http://localhost:8000 --db <throw-away db> --owner-email owner.test@example.com --skip-controls
+(run on the final 2.7.0 tree, 11 Nov 2026, on an empty database; no Gnani key and no Razorpay keys, so the Razorpay checks cover the "not configured" behaviour and the signed-webhook refusal only)
+PASS  landing: page title
+PASS  landing: headline
+PASS  landing: meta description present
+PASS  landing: Open Graph present; canonical/og:image left out because PUBLIC_URL was not set at build time
+PASS  landing: no inline scripts (CSP script-src 'self' holds)
+PASS  landing: no horizontal scrolling at 1440 px
+PASS  landing: every picture loaded
+PASS  landing type: headings are set in Newsreader at weight 400
+PASS  landing type: body text is Geist, and both bundled fonts loaded (no font service)
+PASS  landing type: every font file came from this server
+PASS  landing type: the headline sets in three lines at 1440 px
+PASS  landing: nav 'Product' scrolls its section to just below the sticky bar
+PASS  landing: nav 'How it works' scrolls its section to just below the sticky bar
+PASS  landing: nav 'Languages' scrolls its section to just below the sticky bar
+PASS  landing: nav 'Technology' scrolls its section to just below the sticky bar
+PASS  landing: nav 'Security' scrolls its section to just below the sticky bar
+PASS  landing: nav 'Contact' scrolls its section to just below the sticky bar
+PASS  keyboard: first Tab stop is the skip link
+PASS  keyboard: the skip link is visible when focused
+PASS  keyboard: the skip link moves focus to the main content
+PASS  showcase: five product areas, in the order of the brief, each with its own heading
+PASS  showcase: the four screenshots loaded
+PASS  showcase: the screenshots are labelled as generated demo data
+PASS  showcase: six underlined words (two in each of three sample sentences)
+PASS  showcase: headings in the serif, the Gujarati sentence in the Gujarati face
+PASS  languages: eleven rows, seven of them in the new-in-this-release group
+PASS  languages: says the rules are unit-tested, that no language has been checked against the live service, and that the new seven are unreviewed
+PASS  demo: choosing the Gujarati example changes the first step to 'Read as Gujarati'
+PASS  demo: the four-step strip fills in from the real parser's answer
+PASS  demo: labelled as a demonstration, typed text only
+PASS  FAQ: clicking a question opens its answer
+PASS  FAQ: Enter on a focused question opens it (keyboard)
+PASS  light only (landing): there is no theme switch
+PASS  light only (landing): the page carries no data-theme
+PASS  light only (landing): color-scheme is light
+PASS  light only (landing): body stays light on a device that prefers dark mode
+PASS  light only (landing): header stays light on a device that prefers dark mode
+PASS  light only (landing): .lp-foot stays light on a device that prefers dark mode
+PASS  contact: empty form shows field errors and sends nothing
+PASS  contact: success message says the message was saved on this server (SMTP is not configured)
+PASS  contact: form cleared after sending
+PASS  API: protected data refuses a visitor with 401
+PASS  API: the landing-page demo endpoint is open, as documented
+PASS  protected route /orders: visitor is sent to sign-in with a return address
+PASS  protected route /account: visitor is sent to sign-in with a return address
+PASS  protected route /settings: visitor is sent to sign-in with a return address
+PASS  protected route /dashboard: visitor is sent to sign-in with a return address
+PASS  phone: landing has no horizontal scrolling at 390 px
+PASS  phone: the menu opens
+PASS  phone: choosing a link closes the menu
+PASS  phone: and scrolls to that section, below the sticky bar
+PASS  sign-in: a wrong password gives one plain message, stays on the page and clears the password
+PASS  sign-in: an unknown e-mail gets exactly the same message (no account enumeration)
+PASS  sign-up: all four client-side problems are reported at once
+PASS  sign-up: invalid fields are marked aria-invalid
+PASS  sign-up: an existing e-mail is refused (this reveals that the address is registered; documented trade-off)
+PASS  sign-up: a second person becomes staff, and the screen says what staff can do
+PASS  light only (app shell): there is no theme switch
+PASS  light only (app shell): the page carries no data-theme
+PASS  light only (app shell): color-scheme is light
+PASS  light only (app shell): body stays light on a device that prefers dark mode
+PASS  light only (app shell): .sidebar stays light on a device that prefers dark mode
+PASS  light only (app shell): .main-col stays light on a device that prefers dark mode
+PASS  light only (app shell): .topbar stays light on a device that prefers dark mode
+PASS  light only (app shell): .content stays light on a device that prefers dark mode
+PASS  cookie: HttpOnly, SameSite=Lax, a session cookie (no expiry) when 'keep me signed in' was not ticked
+PASS  cookie: JavaScript cannot read the session cookie
+PASS  staff: the sidebar shows the name and the Staff role
+PASS  staff: the dashboard does not offer stock management
+PASS  staff: the team list is refused by the server (403), not just hidden
+PASS  staff: the account page has no team or messages, and lists this device
+PASS  sign-out: the session cookie is gone
+PASS  sign-out: the dashboard is no longer reachable
+PASS  sign-out: the back button does not show the signed-in app
+PASS  lock-out: repeated wrong passwords are slowed down (after 6 tries)
+PASS  lock-out: even the right password is refused while locked
+PASS  sign-in: the person lands on the page they asked for (?next=)
+PASS  cookie: 'keep me signed in' makes a 30-day cookie
+PASS  sign-in page: someone already signed in is sent to the dashboard
+PASS  sign-in: an off-site ?next= is ignored
+PASS  owner: the contact message sent earlier is in the inbox on the account page
+PASS  owner: the team list shows the staff account
+PASS  account: a wrong current password is refused and the password is unchanged
+PASS  expiry: moved the owner's server-side session expiry into the past
+PASS  expiry: the app notices the ended session, signs the person out, says so, and remembers where they were
+PASS  expiry: signing in again returns to the same page
+PASS  landing: the Security and trust section shows six items and says what is not claimed
+PASS  landing: the footer links to the Security section
+PASS  setup checklist: a new owner starts at 0 of 4 (demo name, demo prices, no real order, no key)
+PASS  setup checklist: the server itself reports the shop still has the demo name
+PASS  shop name: Save is off until something changes
+PASS  shop name: a one-letter name is explained and cannot be saved
+PASS  shop name: the server's refusal is shown in words and what was typed is kept
+PASS  shop name: saved, extra spaces collapsed, and the sidebar shows it straight away
+PASS  shop name: still there after a reload
+PASS  setup checklist: naming the shop ticks that step and only that step
+PASS  order desk: a typed order is confirmed and saved with a bill number
+PASS  print: the button puts the page into print state and then asks the browser to print
+PASS  print: in print media only the bill is shown: the shop's name, the bill number, no sidebar
+PASS  print: it renders to a PDF
+PASS  print: on screen the bill is hidden again
+PASS  export: Orders downloads a CSV (UTF-8 with BOM, CRLF) that contains the order just taken
+PASS  export: Inventory downloads the stock list with a header row and one row per item
+PASS  export: Customers (owner) downloads
+PASS  setup checklist: after naming the shop and taking an order, exactly those two steps are ticked
+PASS  staff: no setup checklist on the dashboard
+PASS  staff: no shop-name field in Settings
+PASS  staff: Customers has no export and no New customer button
+PASS  staff: the customer export is refused by the server (403), not just hidden
+PASS  staff: can still export the orders they work with
+PASS  shop name: put back as it was, and the server again reports the demo name
+PASS  API reference: /docs lists every operation of the API
+PASS  API reference: the filter narrows the list
+PASS  API reference: an operation opens to show its parameters and responses
+PASS  API reference: the page makes no request to any other host (no CDN)
+PASS  API reference: light page
+PASS  API reference: /redoc goes to the same page
+PASS  languages: the server lists the 11 languages, the original four first
+PASS  languages: this run has no live Gnani check on file, so every check of every language reads 'not_run'
+PASS  language selector: the Order desk starts on Gujarati and shows its own script and its Prisma code
+PASS  language selector: 11 languages and Auto-detect are listed
+PASS  language selector: every language is named in its own script
+PASS  language selector: Auto-detect is unavailable on Prisma v2.5 and says why
+PASS  language selector: all 11 say 'Not verified live' (nothing was run against Gnani)
+PASS  language selector: the seven added languages are marked as new
+PASS  language selector: Escape closes it and returns focus to the button
+PASS  language selector: choosing Marathi updates the button
+PASS  Marathi: the sample sentence typed in Marathi becomes a two-line bill (sugar and milk)
+PASS  Marathi: the bill names the items in Marathi
+PASS  language selector: at 390 px wide the open list stays inside the screen with no horizontal scrolling
+PASS  languages card: English is always on and cannot be switched off
+PASS  languages card: Marathi lists exactly the documented Timbre voices the server reports and starts on its default, Zahira
+PASS  languages card: a language switched off in Settings cannot be chosen on the Order desk
+PASS  languages card: the server refuses a switched-off language (422 LANGUAGE_DISABLED) instead of answering in another one
+PASS  languages card: Marathi switched back on, the server lists nothing as switched off
+PASS  staff: no languages card in Settings
+PASS  staff: can read the language list the Order desk needs
+PASS  staff: can read the AI performance page
+PASS  staff: the sidebar has no Voice diagnostics link
+PASS  staff: the diagnostics API refuses them (403)
+PASS  staff: /diagnostics shows a plain notice, not the timings
+PASS  staff: the Order desk offers the same 11 languages
+PASS  performance: the page has its heading
+PASS  performance: says plainly that no speech was measured and shows 'Not measured' rows
+PASS  performance: real HTML tables (metrics, languages, matrices, tests)
+PASS  performance: no claim of live verification (only 'not verified live')
+PASS  performance: a table downloads as a CSV (UTF-8 with BOM, CRLF)
+PASS  performance: clicking a column heading sorts the table
+PASS  analytics: the stock-movement card is there
+PASS  analytics: after the order taken above, the stock-movement table lists real rows
+PASS  diagnostics: the owner's sidebar has the link
+PASS  diagnostics: the page has its heading
+PASS  diagnostics: before any spoken order the figures say 'Not measured yet', not zero
+PASS  diagnostics: real HTML tables for the call and settings figures
+PASS  diagnostics: no claim of live verification
+PASS  diagnostics: the owner can read the API
+PASS  diagnostics: switching the period reloads without an error
+PASS  demo default: this shop has real orders, so the demo switch starts off and nothing is stored until the owner chooses
+PASS  demo default: turning the switch on is remembered as the owner's own choice
+PASS  payments: the owner's sidebar has Payments and Payment analytics
+PASS  payments: with no Razorpay keys the mode is 'test', Razorpay is off and cash is on
+PASS  payments: the config the browser receives carries no key or secret
+PASS  payments: with Razorpay off the content-security-policy lets no page load anything from Razorpay
+PASS  payments: a confirmed order offers Take payment, and Next customer still works without it
+PASS  payments: cash is on; UPI (no UPI ID yet) and Razorpay (no keys) are off
+PASS  payments: each switched-off way says why
+PASS  payments: cash less than the bill is refused on screen, with the reason
+PASS  payments: an amount over twenty times the bill plus 1,000 rupees is refused on screen as a slip, with the reason
+PASS  payments: more than the bill shows the change to give back
+PASS  payments: cash is recorded for the ORDER'S OWN total (not an amount from the browser), with the cash received and the change
+PASS  payments: a second payment for a paid order is refused (409 ALREADY_PAID)
+PASS  payments: recording cash again on a paid payment is refused
+PASS  invoice: the receipt has a numbered invoice (INV-year-number)
+PASS  invoice: says it is not a GST tax invoice and shows no tax lines
+PASS  invoice: shows the items, the way paid, the status and the payment reference
+PASS  invoice: opening it again shows the same number (issued once)
+PASS  light only (invoice): there is no theme switch
+PASS  light only (invoice): the page carries no data-theme
+PASS  light only (invoice): color-scheme is light
+PASS  light only (invoice): .invoice-sheet stays light on a device that prefers dark mode
+PASS  invoice: the button puts the page into print state and names the file after the invoice number
+PASS  invoice: in print media only the invoice is shown, with its number and no sidebar
+PASS  invoice: it renders to a PDF
+PASS  invoice: on screen the print copy is hidden again and the title is put back
+PASS  orders: a paid order shows what was collected and Cancel order is off until it is refunded
+PASS  orders: the server refuses to cancel an order with money collected (409 PAID_ORDER)
+PASS  orders: the list shows the payment status for the order
+PASS  orders: orders with no payment recorded report status 'none' (nothing was changed for them)
+PASS  settings: a malformed UPI ID is refused on screen
+PASS  settings: the card shows the UPI QR is on and Razorpay is not set up
+PASS  settings: Razorpay secrets are shown as set or not set and are never typed here (the card's only inputs are the UPI ID and payee name)
+PASS  payments: the UPI QR says it is not verified, shows the amount and the bill number, and says the app cannot see the money
+PASS  payments: the QR is a real drawn code
+PASS  payments: nothing can be confirmed before anyone has looked at the bank
+PASS  payments: a reference alone is not enough: the person must also say they can see the money
+PASS  payments: the finished screen still says it was confirmed by hand
+PASS  payments: the server keeps a hand-confirmed UPI payment as NOT verified, with the reference
+PASS  payments page: lists both payments and marks the hand-confirmed UPI one 'Unverified'
+PASS  payments page: the status tab is sent to the server as a filter
+PASS  payments page: searching by bill number finds exactly that payment
+PASS  refund: more than what is left is refused on screen
+PASS  refund: and refused by the server too
+PASS  refund: asks first, and for cash says the owner returns the money by hand
+PASS  refund: a part-refund is recorded and the payment becomes 'partially refunded'
+PASS  refund: a second refund with a NEW request key is a second refund (so the double-click guard is the request key)
+PASS  refund: sending the same refund request twice (same key) refunds once
+PASS  analytics: the totals are the sum of the two payments recorded above (and nothing else)
+PASS  analytics: manual UPI is called out as not verified and refunds are shown
+PASS  analytics: the chart has a table view
+PASS  light only (payment analytics): there is no theme switch
+PASS  light only (payment analytics): the page carries no data-theme
+PASS  light only (payment analytics): color-scheme is light
+PASS  light only (payment analytics): .content stays light on a device that prefers dark mode
+PASS  staff: sees Payments but not Payment analytics
+PASS  staff: the payment analytics page says it is for the owner
+PASS  staff: the analytics API is refused by the server (403), not just hidden
+PASS  staff: the payment page shows no refund form
+PASS  staff: the refund API is refused by the server (403)
+PASS  staff: can record cash, and the record names who did it
+PASS  webhook: a request with no valid signature is refused and changes nothing
+PASS  responsive: no horizontal scrolling on 6 public and 14 signed-in pages (and the payment window) at [320, 360, 390, 768, 1024, 1280, 1440]
+
+no unexpected console errors, warnings, failed requests or HTTP errors
+
+221 of 221 checks passed

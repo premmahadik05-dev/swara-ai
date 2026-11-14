@@ -1,0 +1,24 @@
+Contrast ratios (WCAG 2.x), computed from the values in frontend/src/styles/tokens.css on 2026-11-10 13:14:06 UTC:
+
+Primary text #242424                             15.52:1 on #ffffff  14.24:1 on #f7f5ef  13.03:1 on #efebe0
+Body-secondary #4a4a4a                            8.86:1 on #ffffff   8.13:1 on #f7f5ef   7.44:1 on #efebe0
+Secondary text #686868                            5.57:1 on #ffffff   5.11:1 on #f7f5ef   4.68:1 on #efebe0
+Link #7a5810 / gold-strong                        6.50:1 on #ffffff   5.96:1 on #f7f5ef   5.46:1 on #efebe0
+Focus ring #8a6414 (3:1 needed, non-text)         5.37:1 on #ffffff   4.92:1 on #f7f5ef   4.50:1 on #efebe0
+Button label #242424 on gold #d6b574              7.92:1 on #d6b574
+Button label #242424 on gold hover #c9a459        6.61:1 on #c9a459
+Gold #d6b574 as text                              1.96:1 on #ffffff   1.80:1 on #f7f5ef
+Gold #d6b574 as graphic on white                  1.96:1 on #ffffff
+Border #eae7df on white (decor)                   1.24:1 on #ffffff
+Strong border #d9d4c6 on white                    1.48:1 on #ffffff
+OK text #0a6c47 on ok-bg                          5.84:1 on #e8f7ef   6.46:1 on #ffffff
+Warn text #9a4a05 on warn-bg                      5.73:1 on #fff4dc   6.26:1 on #ffffff
+Bad text #b02a1f on bad-bg                        5.74:1 on #fdecea   6.57:1 on #ffffff
+Info text #1d4fb8 on info-bg                      6.42:1 on #eaf0fd   7.34:1 on #ffffff
+Chart axis #5f5b51 on white                       6.77:1 on #ffffff
+Muted series #8a8578 on white                     3.68:1 on #ffffff
+
+chart #2a78d6 4.42:1 on white
+chart #eb6834 3.20:1 on white
+chart #1baf7a 2.82:1 on white
+chart #eda100 2.17:1 on white

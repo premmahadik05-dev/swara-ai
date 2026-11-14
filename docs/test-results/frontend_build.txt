@@ -1,0 +1,92 @@
+$ npx tsc --noEmit && npm run build   (in frontend/, 11 Nov 2026, final 2.7.0 tree)
+tsc: no errors
+
+> swara-frontend@2.7.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.8 building client environment for production...
+transforming...
+✓ 523 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                           2.21 kB │ gzip:   0.86 kB
+dist/assets/geist-mono-symbols2-wght-normal-CO5SzqOn.woff2                5.81 kB
+dist/assets/geist-mono-cyrillic-ext-wght-normal-X_5orZeX.woff2            6.18 kB
+dist/assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2                 7.42 kB
+dist/assets/geist-mono-vietnamese-wght-normal-DadHysG0.woff2              7.70 kB
+dist/assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2                   8.00 kB
+dist/assets/geist-mono-cyrillic-wght-normal-DiZS0aHC.woff2               12.94 kB
+dist/assets/noto-sans-bengali-latin-ext-wght-normal-B4w0d5pX.woff2       13.62 kB
+dist/assets/noto-sans-devanagari-latin-ext-wght-normal-CLkupaxV.woff2    13.85 kB
+dist/assets/noto-sans-kannada-latin-ext-wght-normal-MdBBF41x.woff2       13.99 kB
+dist/assets/noto-sans-gujarati-symbols-wght-normal-BIVT2UXp.woff2        14.50 kB
+dist/assets/geist-mono-latin-ext-wght-normal-Bwz-egvJ.woff2              14.70 kB
+dist/assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2                    15.08 kB
+dist/assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2                   16.51 kB
+dist/assets/noto-sans-telugu-latin-ext-wght-normal-xlpeUHwg.woff2        17.05 kB
+dist/assets/noto-sans-gujarati-latin-ext-wght-normal-DAf-iy7o.woff2      17.10 kB
+dist/assets/noto-sans-tamil-latin-ext-wght-normal-D1TiJAvN.woff2         17.27 kB
+dist/assets/noto-sans-malayalam-latin-ext-wght-normal-s09EMxGK.woff2     17.35 kB
+dist/assets/noto-sans-gurmukhi-latin-ext-wght-normal-CbYA9Het.woff2      17.46 kB
+dist/assets/noto-sans-gujarati-math-wght-normal-D_zLZgZN.woff2           22.38 kB
+dist/assets/geist-mono-latin-wght-normal-XN7g48iV.woff2                  23.13 kB
+dist/assets/noto-sans-devanagari-latin-wght-normal-Bxfr4UJH.woff2        25.38 kB
+dist/assets/noto-sans-bengali-latin-wght-normal-BEfni1Yl.woff2           25.60 kB
+dist/assets/newsreader-vietnamese-opsz-normal-BjhtXyW2.woff2             27.25 kB
+dist/assets/noto-sans-kannada-latin-wght-normal-DeLZCgFT.woff2           27.58 kB
+dist/assets/geist-latin-wght-normal-BgDaEnEv.woff2                       29.40 kB
+dist/assets/noto-sans-gurmukhi-latin-wght-normal-BcBT8azu.woff2          31.30 kB
+dist/assets/noto-sans-gujarati-latin-wght-normal-BDbQYXqH.woff2          31.35 kB
+dist/assets/noto-sans-malayalam-latin-wght-normal-DtofEq_2.woff2         31.59 kB
+dist/assets/noto-sans-telugu-latin-wght-normal-CDSHg1Y4.woff2            31.85 kB
+dist/assets/noto-sans-tamil-latin-wght-normal-Cd-SWREo.woff2             31.93 kB
+dist/assets/noto-sans-gurmukhi-gurmukhi-wght-normal-HnZqhN5g.woff2       33.82 kB
+dist/assets/noto-sans-tamil-tamil-wght-normal-iihgzMBi.woff2             50.47 kB
+dist/assets/newsreader-latin-ext-opsz-normal-BQn1nviT.woff2              86.61 kB
+dist/assets/noto-sans-malayalam-malayalam-wght-normal-C3telsSh.woff2     89.47 kB
+dist/assets/noto-sans-kannada-kannada-wght-normal-DuwB-P8d.woff2         90.80 kB
+dist/assets/noto-sans-bengali-bengali-wght-normal-DeF8kf4m.woff2        107.72 kB
+dist/assets/noto-sans-gujarati-gujarati-wght-normal-Clz9kKLg.woff2      112.27 kB
+dist/assets/noto-sans-devanagari-devanagari-wght-normal-DWI_L5Cu.woff2  121.19 kB
+dist/assets/noto-sans-telugu-telugu-wght-normal-DoLU0sI2.woff2          123.97 kB
+dist/assets/newsreader-latin-opsz-normal-s-izfB6B.woff2                 132.00 kB
+dist/assets/index-C-9M-V4X.css                                           95.91 kB │ gzip:  18.98 kB
+dist/assets/badges-XjCd4Xi9.js                                            0.51 kB │ gzip:   0.33 kB
+dist/assets/stats-CirY65x-.js                                             0.58 kB │ gzip:   0.33 kB
+dist/assets/NotFound-mLyhjEv2.js                                          0.67 kB │ gzip:   0.40 kB
+dist/assets/useLanguages-BLscPfQa.js                                      0.67 kB │ gzip:   0.41 kB
+dist/assets/ExportButton-CZ-f-CR3.js                                      0.83 kB │ gzip:   0.54 kB
+dist/assets/Kpi-D9bb0QB2.js                                               1.09 kB │ gzip:   0.59 kB
+dist/assets/VerifyEmail-Z2zGJXAZ.js                                       1.40 kB │ gzip:   0.73 kB
+dist/assets/ForgotPassword-B_cXovfb.js                                    2.13 kB │ gzip:   1.08 kB
+dist/assets/CustomerForm-CEjiBKnY.js                                      2.20 kB │ gzip:   1.15 kB
+dist/assets/Overlay-C8BDKFQJ.js                                           2.41 kB │ gzip:   1.07 kB
+dist/assets/ResetPassword-vZisee64.js                                     2.46 kB │ gzip:   1.15 kB
+dist/assets/SignIn-BGrjToLu.js                                            2.69 kB │ gzip:   1.35 kB
+dist/assets/GridTable-Bd32EzNa.js                                         2.86 kB │ gzip:   1.48 kB
+dist/assets/payments-CcFvzrC1.js                                          3.21 kB │ gzip:   1.63 kB
+dist/assets/Invoice-DM0awXHf.js                                           4.67 kB │ gzip:   1.58 kB
+dist/assets/Legal-AGz2GzIJ.js                                             5.05 kB │ gzip:   2.04 kB
+dist/assets/SignUp-DKDC856D.js                                            5.52 kB │ gzip:   2.32 kB
+dist/assets/Payments-CtCr-fRx.js                                          5.78 kB │ gzip:   2.27 kB
+dist/assets/audio-CapdPULV.js                                             5.93 kB │ gzip:   2.55 kB
+dist/assets/PaymentAnalytics-CivhcY3m.js                                  6.21 kB │ gzip:   2.58 kB
+dist/assets/Customers-DLq5MH-_.js                                         7.95 kB │ gzip:   2.76 kB
+dist/assets/PaymentDetail-BmcSyIiB.js                                     8.79 kB │ gzip:   3.11 kB
+dist/assets/Account-B-lheakb.js                                           9.37 kB │ gzip:   3.17 kB
+dist/assets/NoiseLab-C2wWjhDv.js                                          9.47 kB │ gzip:   3.85 kB
+dist/assets/Live-Djr0o3X4.js                                              9.94 kB │ gzip:   3.28 kB
+dist/assets/Diagnostics-BvCrNb-t.js                                      10.68 kB │ gzip:   3.92 kB
+dist/assets/Dashboard-B2ATN_Re.js                                        11.48 kB │ gzip:   4.18 kB
+dist/assets/Catalogue-D62v9hSI.js                                        12.75 kB │ gzip:   4.44 kB
+dist/assets/Orders-BF_b4kk-.js                                           12.77 kB │ gzip:   4.31 kB
+dist/assets/Inventory-A2mMWfBC.js                                        13.78 kB │ gzip:   4.81 kB
+dist/assets/Settings-IQfvyNyn.js                                         13.92 kB │ gzip:   4.88 kB
+dist/assets/Analytics-DKqJB1As.js                                        17.43 kB │ gzip:   5.50 kB
+dist/assets/OrderDesk-5DNy6GPA.js                                        32.61 kB │ gzip:  11.78 kB
+dist/assets/PaymentDialog-WeuTQO9l.js                                    36.07 kB │ gzip:  12.84 kB
+dist/assets/Performance-DWZofW70.js                                      38.56 kB │ gzip:  12.46 kB
+dist/assets/index-CsdKPkqf.js                                           301.10 kB │ gzip: 102.01 kB
+dist/assets/charts-BqVBdzdf.js                                          418.76 kB │ gzip: 120.41 kB
+✓ built in 3.81s
+EXIT 0

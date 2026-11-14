@@ -1,0 +1,17 @@
+.env
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+frontend/dist/
+backend/data/
+eval/tmp/
+*.log
+.DS_Store
+eval/samples/*.wav

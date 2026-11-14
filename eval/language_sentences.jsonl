@@ -1,0 +1,70 @@
+{"id": "s-gu", "lang": "gu", "kind": "registry_sample", "text": "મને બે કિલો ખાંડ અને એક લીટર દૂધ જોઈએ છે", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-hi", "lang": "hi", "kind": "registry_sample", "text": "मुझे दो किलो चीनी और एक लीटर दूध चाहिए", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-en", "lang": "en", "kind": "registry_sample", "text": "I need two kilos of sugar and one litre of milk", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-hinglish", "lang": "hinglish", "kind": "registry_sample", "text": "mujhe do kilo chini aur ek litre doodh chahiye", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-mr", "lang": "mr", "kind": "registry_sample", "text": "मला दोन किलो साखर आणि एक लिटर दूध पाहिजे", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-bn", "lang": "bn", "kind": "registry_sample", "text": "আমার দুই কেজি চিনি আর এক লিটার দুধ লাগবে", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-ta", "lang": "ta", "kind": "registry_sample", "text": "எனக்கு இரண்டு கிலோ சர்க்கரை மற்றும் ஒரு லிட்டர் பால் வேண்டும்", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-te", "lang": "te", "kind": "registry_sample", "text": "నాకు రెండు కిలోల చక్కెర మరియు ఒక లీటర్ పాలు కావాలి", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-kn", "lang": "kn", "kind": "registry_sample", "text": "ನನಗೆ ಎರಡು ಕಿಲೋ ಸಕ್ಕರೆ ಮತ್ತು ಒಂದು ಲೀಟರ್ ಹಾಲು ಬೇಕು", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-ml", "lang": "ml", "kind": "registry_sample", "text": "എനിക്ക് രണ്ട് കിലോ പഞ്ചസാരയും ഒരു ലിറ്റർ പാലും വേണം", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "s-pa", "lang": "pa", "kind": "registry_sample", "text": "ਮੈਨੂੰ ਦੋ ਕਿਲੋ ਖੰਡ ਅਤੇ ਇੱਕ ਲੀਟਰ ਦੁੱਧ ਚਾਹੀਦਾ ਹੈ", "gold": [["SUGAR", "2", "kg"], ["MILK", "1", "l"]]}
+{"id": "a-mr-00", "lang": "mr", "kind": "authored", "text": "अर्धा किलो तांदूळ", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-mr-01", "lang": "mr", "kind": "authored", "text": "दीड किलो कांदा आणि अडीच किलो बटाटा", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-mr-02", "lang": "mr", "kind": "authored", "text": "तीन लिटर दूध", "gold": [["MILK", "3", "l"]]}
+{"id": "a-mr-03", "lang": "mr", "kind": "authored", "text": "पाव किलो चहा", "gold": [["TEA", "0.25", "kg"]]}
+{"id": "a-mr-04", "lang": "mr", "kind": "authored", "text": "दोन डझन अंडी", "gold": [["EGGS", "2", "dozen"]]}
+{"id": "a-mr-05", "lang": "mr", "kind": "authored", "text": "सव्वा किलो मीठ", "gold": [["SALT", "1.25", "kg"]]}
+{"id": "a-bn-00", "lang": "bn", "kind": "authored", "text": "আধা কেজি চাল", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-bn-01", "lang": "bn", "kind": "authored", "text": "দেড় কেজি পেঁয়াজ আর আড়াই কেজি আলু", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-bn-02", "lang": "bn", "kind": "authored", "text": "তিন লিটার দুধ", "gold": [["MILK", "3", "l"]]}
+{"id": "a-bn-03", "lang": "bn", "kind": "authored", "text": "পাঁচশো গ্রাম পনির", "gold": [["PANEER", "500", "g"]]}
+{"id": "a-bn-04", "lang": "bn", "kind": "authored", "text": "আড়াইশো গ্রাম চিনি", "gold": [["SUGAR", "250", "g"]]}
+{"id": "a-bn-05", "lang": "bn", "kind": "authored", "text": "এক ডজন ডিম", "gold": [["EGGS", "1", "dozen"]]}
+{"id": "a-bn-06", "lang": "bn", "kind": "authored", "text": "সাড়ে তিন কেজি আটা", "gold": [["ATTA", "3.5", "kg"]]}
+{"id": "a-bn-07", "lang": "bn", "kind": "authored", "text": "আমার দশ কেজি চাল লাগবে", "gold": [["RICE-REGULAR", "10", "kg"]]}
+{"id": "a-ta-00", "lang": "ta", "kind": "authored", "text": "அரை கிலோ அரிசி", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-ta-01", "lang": "ta", "kind": "authored", "text": "ஒன்றரை கிலோ வெங்காயம் மற்றும் இரண்டரை கிலோ உருளைக்கிழங்கு", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-ta-02", "lang": "ta", "kind": "authored", "text": "மூன்று லிட்டர் பால்", "gold": [["MILK", "3", "l"]]}
+{"id": "a-ta-03", "lang": "ta", "kind": "authored", "text": "கால் கிலோ தக்காளி", "gold": [["TOMATO", "0.25", "kg"]]}
+{"id": "a-ta-04", "lang": "ta", "kind": "authored", "text": "இரண்டு டஜன் முட்டை", "gold": [["EGGS", "2", "dozen"]]}
+{"id": "a-ta-05", "lang": "ta", "kind": "authored", "text": "எனக்கு ஐந்து கிலோ கோதுமை மாவு வேண்டும்", "gold": [["ATTA", "5", "kg"]]}
+{"id": "a-ta-06", "lang": "ta", "kind": "authored", "text": "நூறு கிராம் மிளகாய் தூள்", "gold": [["CHILLI-POWDER", "100", "g"]]}
+{"id": "a-te-00", "lang": "te", "kind": "authored", "text": "అర కిలో బియ్యం", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-te-01", "lang": "te", "kind": "authored", "text": "ఒకటిన్నర కిలోల ఉల్లిపాయలు మరియు రెండున్నర కిలోల బంగాళాదుంపలు", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-te-02", "lang": "te", "kind": "authored", "text": "మూడు లీటర్ల పాలు", "gold": [["MILK", "3", "l"]]}
+{"id": "a-te-03", "lang": "te", "kind": "authored", "text": "పావు కిలో టమాటా", "gold": [["TOMATO", "0.25", "kg"]]}
+{"id": "a-te-04", "lang": "te", "kind": "authored", "text": "రెండు డజన్ల గుడ్లు", "gold": [["EGGS", "2", "dozen"]]}
+{"id": "a-te-05", "lang": "te", "kind": "authored", "text": "నాకు ఐదు కిలోల గోధుమ పిండి కావాలి", "gold": [["ATTA", "5", "kg"]]}
+{"id": "a-te-06", "lang": "te", "kind": "authored", "text": "వంద గ్రాముల కారం", "gold": [["CHILLI-POWDER", "100", "g"]]}
+{"id": "a-kn-00", "lang": "kn", "kind": "authored", "text": "ಅರ್ಧ ಕಿಲೋ ಅಕ್ಕಿ", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-kn-01", "lang": "kn", "kind": "authored", "text": "ಒಂದೂವರೆ ಕಿಲೋ ಈರುಳ್ಳಿ ಮತ್ತು ಎರಡೂವರೆ ಕಿಲೋ ಆಲೂಗಡ್ಡೆ", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-kn-02", "lang": "kn", "kind": "authored", "text": "ಮೂರು ಲೀಟರ್ ಹಾಲು", "gold": [["MILK", "3", "l"]]}
+{"id": "a-kn-03", "lang": "kn", "kind": "authored", "text": "ಕಾಲು ಕಿಲೋ ಟೊಮೆಟೊ", "gold": [["TOMATO", "0.25", "kg"]]}
+{"id": "a-kn-04", "lang": "kn", "kind": "authored", "text": "ಎರಡು ಡಜನ್ ಮೊಟ್ಟೆ", "gold": [["EGGS", "2", "dozen"]]}
+{"id": "a-kn-05", "lang": "kn", "kind": "authored", "text": "ನನಗೆ ಐದು ಕಿಲೋ ಗೋಧಿ ಹಿಟ್ಟು ಬೇಕು", "gold": [["ATTA", "5", "kg"]]}
+{"id": "a-kn-06", "lang": "kn", "kind": "authored", "text": "ನೂರು ಗ್ರಾಂ ಮೆಣಸಿನ ಪುಡಿ", "gold": [["CHILLI-POWDER", "100", "g"]]}
+{"id": "a-ml-00", "lang": "ml", "kind": "authored", "text": "അര കിലോ അരി", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-ml-01", "lang": "ml", "kind": "authored", "text": "ഒന്നര കിലോ ഉള്ളിയും രണ്ടര കിലോ ഉരുളക്കിഴങ്ങും", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-ml-02", "lang": "ml", "kind": "authored", "text": "മൂന്ന് ലിറ്റർ പാൽ", "gold": [["MILK", "3", "l"]]}
+{"id": "a-ml-03", "lang": "ml", "kind": "authored", "text": "കാൽ കിലോ തക്കാളി", "gold": [["TOMATO", "0.25", "kg"]]}
+{"id": "a-ml-04", "lang": "ml", "kind": "authored", "text": "രണ്ട് ഡസൻ മുട്ട", "gold": [["EGGS", "2", "dozen"]]}
+{"id": "a-ml-05", "lang": "ml", "kind": "authored", "text": "എനിക്ക് അഞ്ച് കിലോ ഗോതമ്പ് പൊടി വേണം", "gold": [["ATTA", "5", "kg"]]}
+{"id": "a-ml-06", "lang": "ml", "kind": "authored", "text": "നൂറ് ഗ്രാം മുളകുപൊടി", "gold": [["CHILLI-POWDER", "100", "g"]]}
+{"id": "a-pa-00", "lang": "pa", "kind": "authored", "text": "ਅੱਧਾ ਕਿਲੋ ਚੌਲ", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-pa-01", "lang": "pa", "kind": "authored", "text": "ਡੇਢ ਕਿਲੋ ਪਿਆਜ਼ ਅਤੇ ਢਾਈ ਕਿਲੋ ਆਲੂ", "gold": [["ONION", "1.5", "kg"], ["POTATO", "2.5", "kg"]]}
+{"id": "a-pa-02", "lang": "pa", "kind": "authored", "text": "ਤਿੰਨ ਲੀਟਰ ਦੁੱਧ", "gold": [["MILK", "3", "l"]]}
+{"id": "a-pa-03", "lang": "pa", "kind": "authored", "text": "ਪਾਅ ਕਿਲੋ ਟਮਾਟਰ", "gold": [["TOMATO", "0.25", "kg"]]}
+{"id": "a-pa-04", "lang": "pa", "kind": "authored", "text": "ਦੋ ਦਰਜਨ ਆਂਡੇ", "gold": [["EGGS", "2", "dozen"]]}
+{"id": "a-pa-05", "lang": "pa", "kind": "authored", "text": "ਮੈਨੂੰ ਪੰਜ ਕਿਲੋ ਆਟਾ ਚਾਹੀਦਾ ਹੈ", "gold": [["ATTA", "5", "kg"]]}
+{"id": "a-pa-06", "lang": "pa", "kind": "authored", "text": "ਸੌ ਗ੍ਰਾਮ ਲਾਲ ਮਿਰਚ", "gold": [["CHILLI-POWDER", "100", "g"]]}
+{"id": "a-gu-00", "lang": "gu", "kind": "authored", "text": "અડધો કિલો ચોખા", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-gu-01", "lang": "gu", "kind": "authored", "text": "દોઢ કિલો ડુંગળી", "gold": [["ONION", "1.5", "kg"]]}
+{"id": "a-gu-02", "lang": "gu", "kind": "authored", "text": "ત્રણ લીટર દૂધ", "gold": [["MILK", "3", "l"]]}
+{"id": "a-hi-00", "lang": "hi", "kind": "authored", "text": "आधा किलो चावल", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-hi-01", "lang": "hi", "kind": "authored", "text": "डेढ़ किलो प्याज", "gold": [["ONION", "1.5", "kg"]]}
+{"id": "a-hi-02", "lang": "hi", "kind": "authored", "text": "तीन लीटर दूध", "gold": [["MILK", "3", "l"]]}
+{"id": "a-en-00", "lang": "en", "kind": "authored", "text": "half a kilo of rice", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-en-01", "lang": "en", "kind": "authored", "text": "three litres of milk", "gold": [["MILK", "3", "l"]]}
+{"id": "a-hinglish-00", "lang": "hinglish", "kind": "authored", "text": "aadha kilo chawal", "gold": [["RICE-REGULAR", "0.5", "kg"]]}
+{"id": "a-hinglish-01", "lang": "hinglish", "kind": "authored", "text": "teen litre doodh", "gold": [["MILK", "3", "l"]]}

@@ -1,0 +1,180 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.2.0, pluggy-1.7.0
+rootdir: /home/claude/swara-ai
+configfile: pytest.ini
+testpaths: backend/tests
+plugins: anyio-4.16.0, platformdirs-4.14.5, asyncio-1.4.1.post1, cov-7.1.0
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 1103 items
+
+backend/tests/test_api_admin.py .....................                    [  1%]
+backend/tests/test_api_reference.py ......                               [  2%]
+backend/tests/test_api_voice.py .....................                    [  4%]
+backend/tests/test_auth.py ............................................. [  8%]
+.....................................................                    [ 13%]
+backend/tests/test_branded_nlu.py .........                              [ 14%]
+backend/tests/test_branding.py ..............                            [ 15%]
+backend/tests/test_cart_edit.py ........                                 [ 16%]
+backend/tests/test_data_pipeline.py .................................    [ 19%]
+backend/tests/test_dialogue_api.py ......................                [ 21%]
+backend/tests/test_evaluation_summary.py ......                          [ 21%]
+backend/tests/test_exports_and_shop.py ................................. [ 24%]
+                                                                         [ 24%]
+backend/tests/test_gnani_contract.py ...............................     [ 27%]
+backend/tests/test_independent_product.py .....                          [ 27%]
+backend/tests/test_landing_claims.py ......                              [ 28%]
+backend/tests/test_landing_design.py ..........                          [ 29%]
+backend/tests/test_languages_api.py .................................... [ 32%]
+.......................................                                  [ 36%]
+backend/tests/test_languages_nlu.py .................................... [ 39%]
+........................................................................ [ 45%]
+........................................................................ [ 52%]
+.......................                                                  [ 54%]
+backend/tests/test_languages_registry.py ..............................  [ 57%]
+backend/tests/test_light_only.py ........                                [ 57%]
+backend/tests/test_nlu_parser.py ....................................... [ 61%]
+.......                                                                  [ 62%]
+backend/tests/test_noise.py ....................                         [ 63%]
+backend/tests/test_order_integrity.py ....                               [ 64%]
+backend/tests/test_payments_cash_upi.py .........................        [ 66%]
+backend/tests/test_payments_history_invoice_analytics.py ............... [ 67%]
+..                                                                       [ 68%]
+backend/tests/test_payments_migration.py .........                       [ 68%]
+backend/tests/test_payments_razorpay.py ................................ [ 71%]
+............................                                             [ 74%]
+backend/tests/test_payments_refunds.py ...........................       [ 76%]
+backend/tests/test_payments_security.py ....................             [ 78%]
+backend/tests/test_performance_api.py .........                          [ 79%]
+backend/tests/test_release_260.py ...................................... [ 82%]
+...............                                                          [ 84%]
+backend/tests/test_saas_api.py ............................              [ 86%]
+backend/tests/test_scripts.py .....................                      [ 88%]
+backend/tests/test_security.py ......................................... [ 92%]
+...............................................                          [ 96%]
+backend/tests/test_seed.py ...                                           [ 96%]
+backend/tests/test_units.py .........................                    [ 99%]
+backend/tests/test_ws_proxy.py .........                                 [100%]
+
+=============================== warnings summary ===============================
+backend/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1
+  /home/claude/swara-ai/backend/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+backend/tests/test_auth.py::test_change_password_cannot_be_used_to_guess_the_current_password
+  /home/claude/swara-ai/backend/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py:1750: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f0417200c70>
+    flattened_processors[key](compiled_params[key])
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+backend/tests/test_exports_and_shop.py::test_orders_export_lines_add_up_to_the_bill_total
+  /home/claude/swara-ai/backend/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py:3482: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f041c2d56c0>
+    def primary_mapper(self) -> Mapper[Any]:
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+backend/tests/test_exports_and_shop.py::test_orders_export_lines_add_up_to_the_bill_total
+  /home/claude/swara-ai/backend/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py:3482: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f0417203e20>
+    def primary_mapper(self) -> Mapper[Any]:
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+backend/tests/test_exports_and_shop.py::test_orders_export_lines_add_up_to_the_bill_total
+  /home/claude/swara-ai/backend/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py:3482: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f0417f986d0>
+    def primary_mapper(self) -> Mapper[Any]:
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /home/claude/swara-ai/docs/test-results/backend_pytest.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.18-final-0 _______________
+
+Name                                    Stmts   Miss  Cover
+-----------------------------------------------------------
+backend/app/__init__.py                     0      0   100%
+backend/app/apidocs.py                     17      0   100%
+backend/app/auth.py                       133      4    97%
+backend/app/brand.py                        4      0   100%
+backend/app/config.py                     153      2    99%
+backend/app/db.py                          33      1    97%
+backend/app/deps.py                        15      1    93%
+backend/app/gnani/__init__.py               0      0   100%
+backend/app/gnani/client.py               224      6    97%
+backend/app/gnani/voices.py                31      1    97%
+backend/app/languages.py                   82      1    99%
+backend/app/main.py                        84      0   100%
+backend/app/migrations.py                 101      4    96%
+backend/app/models.py                     267      0   100%
+backend/app/nlu/__init__.py                 0      0   100%
+backend/app/nlu/dialogue.py               421     70    83%
+backend/app/nlu/langpacks/__init__.py      39      1    97%
+backend/app/nlu/langpacks/bn.py             3      0   100%
+backend/app/nlu/langpacks/kn.py             3      0   100%
+backend/app/nlu/langpacks/ml.py             3      0   100%
+backend/app/nlu/langpacks/mr.py             3      0   100%
+backend/app/nlu/langpacks/pa.py             3      0   100%
+backend/app/nlu/langpacks/ta.py             3      0   100%
+backend/app/nlu/langpacks/te.py             3      0   100%
+backend/app/nlu/lexicon.py                147      3    98%
+backend/app/nlu/nlg.py                     30      0   100%
+backend/app/nlu/normalize.py              105     11    90%
+backend/app/nlu/parser.py                 443     21    95%
+backend/app/nlu/product_names.py           12      0   100%
+backend/app/nlu/translit.py                90      2    98%
+backend/app/nlu/units.py                   53      3    94%
+backend/app/nlu/vocab.py                   69      1    99%
+backend/app/routers/__init__.py             0      0   100%
+backend/app/routers/analytics.py           24      0   100%
+backend/app/routers/auth.py               285      3    99%
+backend/app/routers/catalog.py             50      1    98%
+backend/app/routers/contact.py             55      2    96%
+backend/app/routers/customers.py           57      1    98%
+backend/app/routers/diagnostics.py         10      0   100%
+backend/app/routers/evaluation.py          26      0   100%
+backend/app/routers/health.py              14      0   100%
+backend/app/routers/inventory.py          106      5    95%
+backend/app/routers/languages.py           18      0   100%
+backend/app/routers/noise.py               85     12    86%
+backend/app/routers/orders.py              81      0   100%
+backend/app/routers/payments.py           126      1    99%
+backend/app/routers/search.py              23      0   100%
+backend/app/routers/settings.py           179      9    95%
+backend/app/routers/voice.py              213      4    98%
+backend/app/routers/ws.py                 165     22    87%
+backend/app/security.py                   117      8    93%
+backend/app/seed.py                       101      1    99%
+backend/app/seed_data.py                   10      0   100%
+backend/app/services/__init__.py            0      0   100%
+backend/app/services/analytics.py         224      7    97%
+backend/app/services/apilog.py              9      0   100%
+backend/app/services/audio.py              41     11    73%
+backend/app/services/catalog.py            27      0   100%
+backend/app/services/catalog_items.py      95      2    98%
+backend/app/services/customers.py          52      0   100%
+backend/app/services/diagnostics.py        47      0   100%
+backend/app/services/export.py             34      1    97%
+backend/app/services/inventory.py          89      6    93%
+backend/app/services/mailer.py             56      3    95%
+backend/app/services/noise.py             157     11    93%
+backend/app/services/orders.py             75      3    96%
+backend/app/services/passwords.py          77      3    96%
+backend/app/services/payments.py          686     29    96%
+backend/app/services/pipeline.py          182      8    96%
+backend/app/services/razorpay.py           93      8    91%
+backend/app/services/speech.py             36      2    94%
+backend/app/services/verification.py       50      2    96%
+-----------------------------------------------------------
+TOTAL                                    6349    297    95%
+============================= slowest 10 durations =============================
+113.66s setup    backend/tests/test_branded_nlu.py::test_importing_the_whole_catalogue_changes_no_gold_utterance
+31.47s call     backend/tests/test_evaluation_summary.py::test_every_number_in_the_summary_reproduces_from_the_code_and_data
+2.82s call     backend/tests/test_independent_product.py::test_no_programme_specific_wording_anywhere
+2.73s call     backend/tests/test_saas_api.py::test_importing_does_not_hijack_generic_words
+2.64s setup    backend/tests/test_saas_api.py::test_long_history_gives_a_real_earlier_window_and_fills_the_monthly_chart
+2.33s setup    backend/tests/test_seed.py::test_seeded_orders_fall_in_local_business_hours
+2.28s call     backend/tests/test_ws_proxy.py::test_partial_last_frame_is_padded_not_dropped
+2.26s call     backend/tests/test_release_260.py::TestReplyThenVoice::test_speak_needs_a_signed_in_person_and_a_key
+2.26s setup    backend/tests/test_seed.py::test_no_seeded_order_is_in_the_future_and_today_has_some_history
+2.24s setup    backend/tests/test_seed.py::test_seed_is_deterministic_and_idempotent
+================= 1103 passed, 5 warnings in 813.55s (0:13:33) =================
+EXIT 0

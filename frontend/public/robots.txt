@@ -1,0 +1,23 @@
+# SWARA AI: the public pages may be indexed; the app itself is private.
+User-agent: *
+Allow: /$
+Allow: /terms
+Allow: /privacy
+Disallow: /api/
+Disallow: /ws/
+Disallow: /dashboard
+Disallow: /order
+Disallow: /orders
+Disallow: /customers
+Disallow: /inventory
+Disallow: /catalogue
+Disallow: /analytics
+Disallow: /live
+Disallow: /noise
+Disallow: /settings
+Disallow: /account
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /verify-email

@@ -1,0 +1,1340 @@
+{
+ "schema": 1,
+ "generated_at": "2026-11-11T17:19:54+00:00",
+ "app_version": "2.7.0",
+ "scope": "TEXT only. No speech recognition, no speech synthesis and no Gnani call is involved in any number in this file.",
+ "languages": [
+  {
+   "key": "gu",
+   "name": "Gujarati",
+   "native": "ગુજરાતી"
+  },
+  {
+   "key": "hi",
+   "name": "Hindi",
+   "native": "हिन्दी"
+  },
+  {
+   "key": "en",
+   "name": "English (India)",
+   "native": "English"
+  },
+  {
+   "key": "hinglish",
+   "name": "Hinglish",
+   "native": "Hinglish"
+  },
+  {
+   "key": "mr",
+   "name": "Marathi",
+   "native": "मराठी"
+  },
+  {
+   "key": "bn",
+   "name": "Bengali",
+   "native": "বাংলা"
+  },
+  {
+   "key": "ta",
+   "name": "Tamil",
+   "native": "தமிழ்"
+  },
+  {
+   "key": "te",
+   "name": "Telugu",
+   "native": "తెలుగు"
+  },
+  {
+   "key": "kn",
+   "name": "Kannada",
+   "native": "ಕನ್ನಡ"
+  },
+  {
+   "key": "ml",
+   "name": "Malayalam",
+   "native": "മലയാളം"
+  },
+  {
+   "key": "pa",
+   "name": "Punjabi",
+   "native": "ਪੰਜਾਬੀ"
+  }
+ ],
+ "datasets": [
+  {
+   "id": "handwritten",
+   "name": "Handwritten sentences",
+   "n": 128,
+   "n_order": 114,
+   "languages": [
+    "gu",
+    "hi",
+    "hinglish",
+    "en"
+   ],
+   "provenance": "Written by the parser's author, with gold lines; includes 4 ambiguous and 10 non-order sentences",
+   "file": "eval/utterances.jsonl"
+  },
+  {
+   "id": "templated",
+   "name": "Templated sentences",
+   "n": 160,
+   "n_order": 160,
+   "languages": [
+    "gu",
+    "hi",
+    "hinglish",
+    "en"
+   ],
+   "provenance": "Generated from sentence templates over the staples",
+   "file": "eval/utterances.jsonl"
+  },
+  {
+   "id": "authored",
+   "name": "Authored sentences, all 11 languages",
+   "n": 70,
+   "n_order": 70,
+   "languages": [
+    "gu",
+    "hi",
+    "en",
+    "hinglish",
+    "mr",
+    "bn",
+    "ta",
+    "te",
+    "kn",
+    "ml",
+    "pa"
+   ],
+   "provenance": "Registry sample sentence plus the sentences of the language tests; for the 7 languages added in 2.3.0 authored with NO native-speaker review",
+   "file": "eval/language_sentences.jsonl"
+  },
+  {
+   "id": "branded",
+   "name": "Held-out branded products",
+   "n": 300,
+   "n_order": 300,
+   "languages": [
+    "gu",
+    "hi",
+    "hinglish",
+    "en"
+   ],
+   "provenance": "Templated from the names of 527 held-out Open Food Facts products; synthetic sentences, real product names",
+   "file": "data/test/branded_utterances.jsonl"
+  }
+ ],
+ "sentence_check": [
+  {
+   "lang": "gu",
+   "dataset": "handwritten",
+   "dataset_label": "Handwritten sentences",
+   "n": 34,
+   "exact": 34,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "gu",
+   "dataset": "templated",
+   "dataset_label": "Templated sentences",
+   "n": 40,
+   "exact": 40,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "gu",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 4,
+   "exact": 4,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "gu",
+   "dataset": "branded",
+   "dataset_label": "Held-out branded products",
+   "n": 60,
+   "exact": 47,
+   "wrong": 4,
+   "unrecognised": 7,
+   "ambiguous": 2,
+   "exact_pct": 78.3
+  },
+  {
+   "lang": "hi",
+   "dataset": "handwritten",
+   "dataset_label": "Handwritten sentences",
+   "n": 27,
+   "exact": 27,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "hi",
+   "dataset": "templated",
+   "dataset_label": "Templated sentences",
+   "n": 40,
+   "exact": 40,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "hi",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 4,
+   "exact": 4,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "hi",
+   "dataset": "branded",
+   "dataset_label": "Held-out branded products",
+   "n": 60,
+   "exact": 50,
+   "wrong": 3,
+   "unrecognised": 4,
+   "ambiguous": 3,
+   "exact_pct": 83.3
+  },
+  {
+   "lang": "en",
+   "dataset": "handwritten",
+   "dataset_label": "Handwritten sentences",
+   "n": 21,
+   "exact": 21,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "en",
+   "dataset": "templated",
+   "dataset_label": "Templated sentences",
+   "n": 40,
+   "exact": 40,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "en",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 3,
+   "exact": 3,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "en",
+   "dataset": "branded",
+   "dataset_label": "Held-out branded products",
+   "n": 60,
+   "exact": 49,
+   "wrong": 0,
+   "unrecognised": 6,
+   "ambiguous": 5,
+   "exact_pct": 81.7
+  },
+  {
+   "lang": "hinglish",
+   "dataset": "handwritten",
+   "dataset_label": "Handwritten sentences",
+   "n": 32,
+   "exact": 32,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "hinglish",
+   "dataset": "templated",
+   "dataset_label": "Templated sentences",
+   "n": 40,
+   "exact": 40,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "hinglish",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 3,
+   "exact": 3,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "hinglish",
+   "dataset": "branded",
+   "dataset_label": "Held-out branded products",
+   "n": 120,
+   "exact": 98,
+   "wrong": 12,
+   "unrecognised": 4,
+   "ambiguous": 6,
+   "exact_pct": 81.7
+  },
+  {
+   "lang": "mr",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 7,
+   "exact": 7,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "bn",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 9,
+   "exact": 9,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "ta",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 8,
+   "exact": 8,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "te",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 8,
+   "exact": 8,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "kn",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 8,
+   "exact": 8,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "ml",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 8,
+   "exact": 8,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  },
+  {
+   "lang": "pa",
+   "dataset": "authored",
+   "dataset_label": "Authored sentences (2.3.0 table)",
+   "n": 8,
+   "exact": 8,
+   "wrong": 0,
+   "unrecognised": 0,
+   "ambiguous": 0,
+   "exact_pct": 100.0
+  }
+ ],
+ "name_resolution": [
+  {
+   "lang": "gu",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "hi",
+   "n": 65,
+   "own": 64,
+   "ambiguous_includes_own": 1,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 98.5,
+   "applicable": true
+  },
+  {
+   "lang": "en",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "hinglish",
+   "n": 0,
+   "own": 0,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": null,
+   "applicable": false
+  },
+  {
+   "lang": "mr",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "bn",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "ta",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "te",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "kn",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "ml",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  },
+  {
+   "lang": "pa",
+   "n": 65,
+   "own": 65,
+   "ambiguous_includes_own": 0,
+   "wrong": 0,
+   "none": 0,
+   "missing": 0,
+   "own_pct": 100.0,
+   "applicable": true
+  }
+ ],
+ "language_detection": {
+  "labels": [
+   "gu",
+   "hi",
+   "en",
+   "hinglish",
+   "mr",
+   "bn",
+   "ta",
+   "te",
+   "kn",
+   "ml",
+   "pa"
+  ],
+  "matrix": [
+   [
+    139,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    132,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    125,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    195,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    2,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8
+   ]
+  ],
+  "per_language": [
+   {
+    "lang": "gu",
+    "n": 139,
+    "correct": 139,
+    "pct": 100.0
+   },
+   {
+    "lang": "hi",
+    "n": 132,
+    "correct": 132,
+    "pct": 100.0
+   },
+   {
+    "lang": "en",
+    "n": 125,
+    "correct": 125,
+    "pct": 100.0
+   },
+   {
+    "lang": "hinglish",
+    "n": 196,
+    "correct": 195,
+    "pct": 99.5
+   },
+   {
+    "lang": "mr",
+    "n": 7,
+    "correct": 5,
+    "pct": 71.4
+   },
+   {
+    "lang": "bn",
+    "n": 9,
+    "correct": 9,
+    "pct": 100.0
+   },
+   {
+    "lang": "ta",
+    "n": 8,
+    "correct": 8,
+    "pct": 100.0
+   },
+   {
+    "lang": "te",
+    "n": 8,
+    "correct": 8,
+    "pct": 100.0
+   },
+   {
+    "lang": "kn",
+    "n": 8,
+    "correct": 8,
+    "pct": 100.0
+   },
+   {
+    "lang": "ml",
+    "n": 8,
+    "correct": 8,
+    "pct": 100.0
+   },
+   {
+    "lang": "pa",
+    "n": 8,
+    "correct": 8,
+    "pct": 100.0
+   }
+  ],
+  "n": 648,
+  "note": "True language (row) against the label the parser gave with NO selector hint (column). Hindi/Marathi share Devanagari and English/Hinglish share Latin letters; the selector decides those in the app."
+ },
+ "branded": {
+  "verdicts": {
+   "exact": 244,
+   "wrong_product": 19,
+   "not_recognised": 21,
+   "ambiguous_contains_expected": 16
+  },
+  "cases": 300,
+  "exact_pct": 81.3,
+  "wrong_product_pct": 6.3,
+  "recognised_or_asked_pct": 86.7,
+  "by_language": {
+   "en": {
+    "not_recognised": 6,
+    "exact": 49,
+    "ambiguous_contains_expected": 5
+   },
+   "gu": {
+    "exact": 47,
+    "not_recognised": 7,
+    "wrong_product": 4,
+    "ambiguous_contains_expected": 2
+   },
+   "hi": {
+    "exact": 50,
+    "wrong_product": 3,
+    "not_recognised": 4,
+    "ambiguous_contains_expected": 3
+   },
+   "hinglish": {
+    "exact": 98,
+    "wrong_product": 12,
+    "ambiguous_contains_expected": 6,
+    "not_recognised": 4
+   }
+  },
+  "confusion": {
+   "labels_rows": [
+    "Biscuits & Sweets",
+    "Snacks",
+    "Beverages",
+    "Breakfast & Noodles",
+    "Sauces & Spreads",
+    "Dairy & Bakery",
+    "Spices",
+    "Other category"
+   ],
+   "labels_cols": [
+    "Biscuits & Sweets",
+    "Snacks",
+    "Beverages",
+    "Breakfast & Noodles",
+    "Sauces & Spreads",
+    "Dairy & Bakery",
+    "Spices",
+    "Other category",
+    "Asked which pack",
+    "Not recognised"
+   ],
+   "matrix": [
+    [
+     52,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     2
+    ],
+    [
+     0,
+     34,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     4
+    ],
+    [
+     0,
+     0,
+     27,
+     0,
+     0,
+     0,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     28,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     27,
+     0,
+     0,
+     0,
+     3,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     24,
+     0,
+     2,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     18,
+     1,
+     0,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     48,
+     2,
+     5
+    ]
+   ],
+   "wrong_pairs": [
+    {
+     "expected": "Parle G",
+     "got": "Parle-G 100 g",
+     "count": 1
+    },
+    {
+     "expected": "Flavoured tea mix",
+     "got": "Tea Leaves (250 g pack)",
+     "count": 1
+    },
+    {
+     "expected": "More Atta Bread",
+     "got": "Wheat Flour (Atta)",
+     "count": 1
+    },
+    {
+     "expected": "CORIANDER POWDER KitchenFeast",
+     "got": "Dhana Jeera Powder",
+     "count": 1
+    },
+    {
+     "expected": "3 Roses Natural Care Tea",
+     "got": "Tea Leaves (250 g pack)",
+     "count": 1
+    },
+    {
+     "expected": "Masoor dal",
+     "got": "Toor Dal",
+     "count": 1
+    },
+    {
+     "expected": "Everest Rajma Masala",
+     "got": "Rajma",
+     "count": 1
+    },
+    {
+     "expected": "Pure cow ghee",
+     "got": "Ghee",
+     "count": 1
+    },
+    {
+     "expected": "Fresh paneer",
+     "got": "Eggs",
+     "count": 1
+    },
+    {
+     "expected": "Super Strong Blend Coffee",
+     "got": "Instant Coffee (50 g jar)",
+     "count": 1
+    },
+    {
+     "expected": "Good life chilli powder",
+     "got": "Red Chilli Powder",
+     "count": 1
+    },
+    {
+     "expected": "Zero Maida Bread",
+     "got": "Maida (Refined Flour)",
+     "count": 1
+    },
+    {
+     "expected": "Gram flour",
+     "got": "Wheat Flour (Atta)",
+     "count": 1
+    },
+    {
+     "expected": "Organic brown sugar",
+     "got": "Sugar",
+     "count": 1
+    },
+    {
+     "expected": "Moong Papad",
+     "got": "Moong Dal",
+     "count": 1
+    },
+    {
+     "expected": "Good Life Ragi Flour",
+     "got": "Wheat Flour (Atta)",
+     "count": 1
+    },
+    {
+     "expected": "Honey",
+     "got": "Patanjali Honey 500 g",
+     "count": 1
+    },
+    {
+     "expected": "Classic Salted Potato Chips",
+     "got": "Potato Chips",
+     "count": 1
+    },
+    {
+     "expected": "Good life black salt 200g",
+     "got": "Salt",
+     "count": 1
+    }
+   ]
+  },
+  "caveats": [
+   "Sentences are templated from the product's own name, so this is an optimistic ceiling for name recognition.",
+   "Text only: no speech recognition is involved. Gnani Prisma may mis-hear brand names; run the Noise lab for that.",
+   "Only the held-out 10% of catalogue products are imported, so there are fewer look-alike competitors than in a full shop."
+  ]
+ },
+ "behaviour_checks": {
+  "ambiguous_not_guessed": "4/4",
+  "no_item_no_false_add": "10/10"
+ },
+ "noise": {
+  "seeds": 5,
+  "n_sentences": 114,
+  "levels": [
+   {
+    "cer": 0.0,
+    "line_precision": 1.0,
+    "line_recall": 1.0,
+    "line_f1": 1.0,
+    "product_precision": 1.0,
+    "product_recall": 1.0,
+    "product_f1": 1.0,
+    "utterance_exact": 1.0,
+    "utterance_exact_min": 1.0,
+    "utterance_exact_max": 1.0
+   },
+   {
+    "cer": 0.03,
+    "line_precision": 0.8605,
+    "line_recall": 0.8145,
+    "line_f1": 0.8367,
+    "product_precision": 0.9954,
+    "product_recall": 0.942,
+    "product_f1": 0.9678,
+    "utterance_exact": 0.7859,
+    "utterance_exact_min": 0.7368,
+    "utterance_exact_max": 0.8158
+   },
+   {
+    "cer": 0.06,
+    "line_precision": 0.7426,
+    "line_recall": 0.6841,
+    "line_f1": 0.712,
+    "product_precision": 0.9796,
+    "product_recall": 0.9029,
+    "product_f1": 0.9395,
+    "utterance_exact": 0.6333,
+    "utterance_exact_min": 0.614,
+    "utterance_exact_max": 0.6754
+   },
+   {
+    "cer": 0.1,
+    "line_precision": 0.5801,
+    "line_recall": 0.5,
+    "line_f1": 0.537,
+    "product_precision": 0.958,
+    "product_recall": 0.8261,
+    "product_f1": 0.8871,
+    "utterance_exact": 0.4597,
+    "utterance_exact_min": 0.4211,
+    "utterance_exact_max": 0.5
+   },
+   {
+    "cer": 0.15,
+    "line_precision": 0.4609,
+    "line_recall": 0.3638,
+    "line_f1": 0.4066,
+    "product_precision": 0.9469,
+    "product_recall": 0.7464,
+    "product_f1": 0.8346,
+    "utterance_exact": 0.3246,
+    "utterance_exact_min": 0.2632,
+    "utterance_exact_max": 0.3509
+   }
+  ],
+  "ablation": [
+   {
+    "cer": 0.03,
+    "stage": "exact",
+    "label": "Exact name or alias",
+    "utterance_exact": 0.7123,
+    "line_f1": 0.7979
+   },
+   {
+    "cer": 0.03,
+    "stage": "skeleton",
+    "label": "+ phonetic skeleton",
+    "utterance_exact": 0.7474,
+    "line_f1": 0.8173
+   },
+   {
+    "cer": 0.03,
+    "stage": "stem",
+    "label": "+ case endings removed",
+    "utterance_exact": 0.7474,
+    "line_f1": 0.8173
+   },
+   {
+    "cer": 0.03,
+    "stage": "fuzzy",
+    "label": "+ fuzzy match (full system)",
+    "utterance_exact": 0.7859,
+    "line_f1": 0.8367
+   },
+   {
+    "cer": 0.06,
+    "stage": "exact",
+    "label": "Exact name or alias",
+    "utterance_exact": 0.5386,
+    "line_f1": 0.6478
+   },
+   {
+    "cer": 0.06,
+    "stage": "skeleton",
+    "label": "+ phonetic skeleton",
+    "utterance_exact": 0.5807,
+    "line_f1": 0.6829
+   },
+   {
+    "cer": 0.06,
+    "stage": "stem",
+    "label": "+ case endings removed",
+    "utterance_exact": 0.5807,
+    "line_f1": 0.6829
+   },
+   {
+    "cer": 0.06,
+    "stage": "fuzzy",
+    "label": "+ fuzzy match (full system)",
+    "utterance_exact": 0.6333,
+    "line_f1": 0.712
+   },
+   {
+    "cer": 0.1,
+    "stage": "exact",
+    "label": "Exact name or alias",
+    "utterance_exact": 0.3456,
+    "line_f1": 0.4735
+   },
+   {
+    "cer": 0.1,
+    "stage": "skeleton",
+    "label": "+ phonetic skeleton",
+    "utterance_exact": 0.3947,
+    "line_f1": 0.5022
+   },
+   {
+    "cer": 0.1,
+    "stage": "stem",
+    "label": "+ case endings removed",
+    "utterance_exact": 0.3947,
+    "line_f1": 0.5022
+   },
+   {
+    "cer": 0.1,
+    "stage": "fuzzy",
+    "label": "+ fuzzy match (full system)",
+    "utterance_exact": 0.4597,
+    "line_f1": 0.537
+   }
+  ],
+  "note": "Simulated character damage (delete / substitute / duplicate letters) on the handwritten set. It is not acoustic noise and does not reproduce Prisma's real errors."
+ },
+ "end_to_end": {
+  "n_sentences": 344,
+  "n_scored": 340,
+  "outcomes": {
+   "order_correct": 340,
+   "skipped_gold_not_convertible": 4
+  },
+  "by_language": {
+   "bn": {
+    "order_correct": 9
+   },
+   "en": {
+    "order_correct": 63
+   },
+   "gu": {
+    "order_correct": 77
+   },
+   "hi": {
+    "order_correct": 70
+   },
+   "hinglish": {
+    "order_correct": 74
+   },
+   "kn": {
+    "order_correct": 8
+   },
+   "ml": {
+    "order_correct": 8
+   },
+   "mr": {
+    "order_correct": 7
+   },
+   "pa": {
+    "order_correct": 8
+   },
+   "ta": {
+    "order_correct": 8
+   },
+   "te": {
+    "order_correct": 8
+   }
+  },
+  "order_correct_pct": 100.0,
+  "wrong_order_pct": 0.0,
+  "not_completed": [],
+  "clarifications": [],
+  "stock_guard": {
+   "empty_checked": 84,
+   "empty_negative_stock": 0,
+   "empty_refused": 84,
+   "half_checked": 84,
+   "half_negative_stock": 0,
+   "half_asked_or_offered": 82,
+   "half_refused": 2
+  },
+  "note": "Typed text through the real dialogue (sentence, 'that's all', 'confirm') against a throw-away shop. A sentence where the assistant asked which product or how much, instead of guessing, is listed separately and is not counted as an error. No speech is involved."
+ },
+ "parser_latency": {
+  "n": 1440,
+  "p50_ms": 0.138,
+  "p95_ms": 0.213,
+  "max_ms": 1.216
+ },
+ "technology": [
+  {
+   "component": "API server",
+   "technology": "fastapi 0.162.2, uvicorn 0.54.0",
+   "purpose": "REST and WebSocket API; also serves the built web app",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Database",
+   "technology": "SQLite through SQLAlchemy 2.1.8",
+   "purpose": "Products, customers, orders, stock ledger, conversations, accounts, payments, refunds and invoices",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Validation and settings",
+   "technology": "pydantic 2.14.3, pydantic-settings 2.16.2",
+   "purpose": "Request validation and environment configuration",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Accounts and sessions",
+   "technology": "scrypt password hashing (RFC 7914), server-side sessions in an HttpOnly cookie, CSRF token",
+   "purpose": "Sign-in, owner and staff roles, protected routes",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Product matching",
+   "technology": "Own exact, phonetic-skeleton, case-stem stages and rapidfuzz 3.14.6",
+   "purpose": "Find the product a spoken or typed line refers to, in 11 languages",
+   "status": "Implemented; evaluated on text only"
+  },
+  {
+   "component": "Audio handling",
+   "technology": "numpy 2.5.4",
+   "purpose": "Check and convert recorded audio before it is sent; the Noise lab",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Outbound HTTP",
+   "technology": "httpx 0.28.1",
+   "purpose": "Calls to Gnani, and to Razorpay when the owner has set test keys, from the server; the Gnani key and the Razorpay secrets never reach the browser",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Payments",
+   "technology": "Own payment module over SQLite: state rules, audit trail, refunds, invoices; cash, UPI link and QR, Razorpay Checkout (test mode) through httpx, no Razorpay SDK",
+   "purpose": "Take payment for an order, refund it, print an invoice, report collected money",
+   "status": "Implemented and tested; Razorpay was tested against a stand-in, never against the real service"
+  },
+  {
+   "component": "UPI QR code",
+   "technology": "qrcode-generator 1.5.2",
+   "purpose": "Draws the QR for the shop's own UPI payment link in the browser; nothing is sent anywhere",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Speech recognition",
+   "technology": "Gnani Prisma v2.5",
+   "purpose": "Turn the customer's speech into text",
+   "status": "Implemented; tested with mocked HTTP, not live-verified"
+  },
+  {
+   "component": "Speech synthesis",
+   "technology": "Gnani Timbre v2.5",
+   "purpose": "Read the bill and questions back in the customer's language",
+   "status": "Implemented; tested with mocked HTTP, not live-verified"
+  },
+  {
+   "component": "Evon",
+   "technology": "Not integrated",
+   "purpose": "Mentioned in docs/EVON.md only",
+   "status": "Not used"
+  },
+  {
+   "component": "Product catalogue data",
+   "technology": "Open Food Facts India extract (ODbL), bundled as a file",
+   "purpose": "5,325 real packaged products: names, brands, pack sizes; no prices",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Web app",
+   "technology": "React 18.3.1, TypeScript 5.9.3",
+   "purpose": "Order desk, inventory, orders, payments, analytics, AI performance, settings",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Routing and build",
+   "technology": "React Router 7.18.5, Vite 7.3.8",
+   "purpose": "Pages and the production bundle",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Charts",
+   "technology": "Recharts 3.10.1 plus plain SVG and HTML",
+   "purpose": "Every chart has a table view; matrices are real HTML tables",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Fonts",
+   "technology": "Newsreader, Geist, Geist Mono, Noto Sans Indic, self-hosted with @fontsource",
+   "purpose": "Typography, with no request to a font service",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Tests",
+   "technology": "pytest 9.2.0, Vitest 4.1.12, Playwright for Python with Chrome",
+   "purpose": "Backend, component and browser tests",
+   "status": "Implemented and tested"
+  },
+  {
+   "component": "Windows start-up",
+   "technology": "setup.bat, start.bat, dev.bat, test.bat, verify_gnani.bat",
+   "purpose": "One-command install and run without Docker",
+   "status": "Implemented; scripts reviewed, not run on Windows in this environment"
+  }
+ ],
+ "limitations": [
+  "The gold labels of the four original languages were written by the author of the parser, so their 100% figures are a ceiling, not a forecast.",
+  "The seven languages added in 2.3.0 have a handful of authored sentences each and have had NO native-speaker review; their figures show the parser agrees with its author.",
+  "The branded sentences are templated from product names and never name a pack size, so pack-size recognition from speech is not measured.",
+  "Noise is simulated character damage, not acoustic noise; real Prisma errors were never measured because no live Gnani call could be made.",
+  "STT and TTS latency and word-error rate are not in this file: they exist only for live calls, and none was made."
+ ]
+}

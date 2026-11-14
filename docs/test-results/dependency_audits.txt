@@ -1,0 +1,12 @@
+# Dependency audits, run 2026-11-11 16:10 UTC in the build environment (2.7.0 tree)
+
+$ cd frontend && npm audit
+found 0 vulnerabilities
+(exit 0)
+
+$ pip-audit -r backend/requirements.txt
+No known vulnerabilities found
+
+One dependency was added in 2.7.0: qrcode-generator 1.5.2 (MIT), frontend only, used to draw the UPI QR code in the browser. backend/requirements.txt is identical to the released 2.6.0 file (the Razorpay client uses httpx, which was already listed; no Razorpay SDK was added).
+The report script uses matplotlib, pandoc and Playwright, which are build tools for the report and not part of the app; they were not audited.
+Advisory databases change daily; re-run both before you deploy.

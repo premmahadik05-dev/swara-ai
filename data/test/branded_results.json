@@ -1,0 +1,4121 @@
+{
+  "cases": 300,
+  "held_out_products_imported": 527,
+  "verdicts": {
+    "exact": 244,
+    "wrong_product": 19,
+    "not_recognised": 21,
+    "ambiguous_contains_expected": 16
+  },
+  "recognised_or_asked_to_choose_pct": 86.7,
+  "exact_pct": 81.3,
+  "wrong_product_pct": 6.3,
+  "by_language": {
+    "en": {
+      "not_recognised": 6,
+      "exact": 49,
+      "ambiguous_contains_expected": 5
+    },
+    "gu": {
+      "exact": 47,
+      "not_recognised": 7,
+      "wrong_product": 4,
+      "ambiguous_contains_expected": 2
+    },
+    "hi": {
+      "exact": 50,
+      "wrong_product": 3,
+      "not_recognised": 4,
+      "ambiguous_contains_expected": 3
+    },
+    "hinglish": {
+      "exact": 98,
+      "wrong_product": 12,
+      "ambiguous_contains_expected": 6,
+      "not_recognised": 4
+    }
+  },
+  "sample_misses": [
+    {
+      "text": "bhaiya 2 Parle-G Parle G chahiye",
+      "expected": "Parle G",
+      "verdict": "wrong_product",
+      "got": [
+        "Parle-G 100 g",
+        "Parle g 800 g",
+        "Parle-G 100 g"
+      ]
+    },
+    {
+      "text": "I want one Good Life Green Peas please",
+      "expected": "Green Peas 500g",
+      "verdict": "not_recognised",
+      "got": []
+    },
+    {
+      "text": "मुझे एक Hyvita Flavoured tea mix दे दो",
+      "expected": "Flavoured tea mix",
+      "verdict": "wrong_product",
+      "got": [
+        "Tea Leaves (250 g pack)"
+      ]
+    },
+    {
+      "text": "I want one Five Rivers Kinnow Apple please",
+      "expected": "Kinnow Apple",
+      "verdict": "not_recognised",
+      "got": []
+    },
+    {
+      "text": "ek More Atta Bread dena",
+      "expected": "More Atta Bread",
+      "verdict": "wrong_product",
+      "got": [
+        "Wheat Flour (Atta)",
+        "Bread"
+      ]
+    },
+    {
+      "text": "मुझे एक KitchenFeast The Superb Taste CORIANDER POWDER KitchenFeast दे दो",
+      "expected": "CORIANDER POWDER KitchenFeast",
+      "verdict": "wrong_product",
+      "got": [
+        "Dhana Jeera Powder"
+      ]
+    },
+    {
+      "text": "મને એક Mukharochak special papri chanachur જોઈએ છે",
+      "expected": "Mukharochak special papri chanachur",
+      "verdict": "not_recognised",
+      "got": []
+    },
+    {
+      "text": "મને એક Jayanti The Only Cinnamon Powder you need જોઈએ છે",
+      "expected": "The Only Cinnamon Powder you need",
+      "verdict": "not_recognised",
+      "got": []
+    },
+    {
+      "text": "bhaiya 2 3 Roses Natural Care Tea chahiye",
+      "expected": "3 Roses Natural Care Tea",
+      "verdict": "wrong_product",
+      "got": [
+        "Tea Leaves (250 g pack)"
+      ]
+    },
+    {
+      "text": "bhaiya 2 Good Life Ajwain chahiye",
+      "expected": "Ajwain",
+      "verdict": "not_recognised",
+      "got": []
+    },
+    {
+      "text": "ek Good Life Masoor dal dena",
+      "expected": "Masoor dal",
+      "verdict": "wrong_product",
+      "got": [
+        "Toor Dal",
+        "Moong Dal",
+        "Chana Dal"
+      ]
+    },
+    {
+      "text": "bhaiya 2 Everest brand Everest Rajma Masala chahiye",
+      "expected": "Everest Rajma Masala",
+      "verdict": "wrong_product",
+      "got": [
+        "Rajma",
+        "Garam Masala (50 g pack)"
+      ]
+    },
+    {
+      "text": "મને એક Katraj Pure cow ghee જોઈએ છે",
+      "expected": "Pure cow ghee",
+      "verdict": "wrong_product",
+      "got": [
+        "Ghee"
+      ]
+    },
+    {
+      "text": "ek A2B Thattai dena",
+      "expected": "Thattai",
+      "verdict": "not_recognised",
+      "got": []
+    },
+    {
+      "text": "મને એક Kaka Halwai sweets Patal pohe chiwda જોઈએ છે",
+      "expected": "Patal pohe chiwda",
+      "verdict": "not_recognised",
+      "got": []
+    }
+  ],
+  "case_details": [
+    {
+      "id": "b0000",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Chocopie",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Cocoaland Chocopie 25 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0001",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Parle G",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle-G 100 g",
+        "Parle g 800 g",
+        "Parle-G 100 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Biscuits & Sweets",
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0002",
+      "lang": "en",
+      "verdict": "not_recognised",
+      "expected": "Green Peas 500g",
+      "expected_category": "Pulses",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0003",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "HERSHEY KISSes",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "SHARES HERSHEY KISSes 100.8 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0004",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Masala Oats and Millets",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Tata Soulfull Masala Oats and Millets 35 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0005",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Chekku Groundnut Oil",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Ras Chekku Groundnut Oil 1 l"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0006",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Chips",
+      "expected_category": "Snacks",
+      "got": [
+        "Haldiram's Chips 14.95 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0007",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Pasta Sauce Red Tangy Salsa",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Weikfield Pasta Sauce Red Tangy Salsa 200 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0008",
+      "lang": "hi",
+      "verdict": "wrong_product",
+      "expected": "Flavoured tea mix",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Tea Leaves (250 g pack)"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0009",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Tamari soya sauce",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Lima Tamari soya sauce 1 l"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0010",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Ragi glour",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Hareena Ragi glour 500 g"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0011",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Amul Butterscotch Bliss",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Amul Butterscotch Bliss 100 ml"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0012",
+      "lang": "en",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Quaker Oats",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Quaker Oats with Flavour Mix 200 g",
+        "Quaker Oats 40 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0013",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "B Natural Select Tender Coconut Water",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "B Natural Select Tender Coconut Water 750 ml"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0014",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Lalbaba miniket rice",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Lalbaba miniket rice 10 kg"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0015",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Honey Squeezy",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Dabur Honey Squeezy 400 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0016",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Black Pepper Powder",
+      "expected_category": "Spices",
+      "got": [
+        "MDH Black Pepper Powder 100 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0017",
+      "lang": "en",
+      "verdict": "not_recognised",
+      "expected": "Kinnow Apple",
+      "expected_category": "Beverages",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0018",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Himalaya Re-Hydrate Electrolyte Drink, Orange Flavor",
+      "expected_category": "Beverages",
+      "got": [
+        "Himalaya Wellness Company Himalaya Re-Hydrate Electrolyte Drink, Orange Flavor 200 ml",
+        "Mustard Seeds (Rai)"
+      ],
+      "got_categories": [
+        "Beverages",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0019",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Diet coke",
+      "expected_category": "Beverages",
+      "got": [
+        "Coca-Cola Diet coke 300 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0020",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Patanjali Mango Drink",
+      "expected_category": "Beverages",
+      "got": [
+        "Patanjali Mango Drink 500 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0021",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Kool Royal Elaichi",
+      "expected_category": "Spices",
+      "got": [
+        "Amul Kool Royal Elaichi 180 ml"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0022",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Swing Lush Lychee",
+      "expected_category": "Beverages",
+      "got": [
+        "Paper Boat Swing Lush Lychee 140 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0023",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "High Protein Oats Chocolate",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Pintola High Protein Oats Chocolate 1 kg"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0024",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Snac tac Mango Jam",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Snac tac Mango Jam 100 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0025",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Rai Small",
+      "expected_category": "Spices",
+      "got": [
+        "DMart Premia Rai Small 500 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0026",
+      "lang": "hinglish",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Paneer",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Milky Mist Paneer 500 g",
+        "Milky Mist Paneer 200 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0027",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Aachi chicken masala",
+      "expected_category": "Spices",
+      "got": [
+        "Aachi chicken masala 100 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0028",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Kuzhalappam",
+      "expected_category": "Beverages",
+      "got": [
+        "Dev Snacks Kuzhalappam 175 g"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0029",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Kellogg'sCHOCOS",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Kellogg'sCHOCOS 250 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0030",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Patanjali cream feast ( milk vanilla )",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Patanjali cream feast ( milk vanilla ) 84 g",
+        "Milk"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0031",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "ishan POHA CHIVDA",
+      "expected_category": "Snacks",
+      "got": [
+        "ishan POHA CHIVDA 250 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0032",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Sambar masala",
+      "expected_category": "Spices",
+      "got": [
+        "Tata Sampann Sambar masala 100 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0033",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "East Bali Cashews Chili lime",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "East Bali Cashews Chili lime 35 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0034",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Meat / Mutton masala",
+      "expected_category": "Spices",
+      "got": [
+        "Suhana Meat / Mutton masala 200 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0035",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Sunpure Sunflower oil",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "Sunpure Sunflower oil 1 l"
+      ],
+      "got_categories": [
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0036",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "manchar Gold Atta",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "manchar Gold Atta 500 g"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0037",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Peanut Butter Regular",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Sundrop Peanut Butter Regular 462 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0038",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Everest Sambhar Masala",
+      "expected_category": "Spices",
+      "got": [
+        "Everest Sambhar Masala 50 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0039",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Hot & Sweet Lime Pickle",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Grandma's Hot & Sweet Lime Pickle 400 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0040",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "More Atta Bread",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Wheat Flour (Atta)",
+        "Bread"
+      ],
+      "got_categories": [
+        "Grains & Flour",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0041",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Coffee",
+      "expected_category": "Beverages",
+      "got": [
+        "Bru Coffee 50 g"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0042",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "BRITANNIA Cake Gobbles Fruity Fun",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "BRITANNIA Cake Gobbles Fruity Fun 110 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0043",
+      "lang": "hi",
+      "verdict": "wrong_product",
+      "expected": "CORIANDER POWDER KitchenFeast",
+      "expected_category": "Spices",
+      "got": [
+        "Dhana Jeera Powder"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0044",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Sudha Pasteurised Double Toned Milk",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Sudha Pasteurised Double Toned Milk 500 ml",
+        "Milk"
+      ],
+      "got_categories": [
+        "Dairy & Bakery",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0045",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Spicy (Masala) Noddles Khakhara",
+      "expected_category": "Snacks",
+      "got": [
+        "Maniarr's Spicy (Masala) Noddles Khakhara 45 g",
+        "Instant Noodles",
+        "Khakhra (pack)"
+      ],
+      "got_categories": [
+        "Snacks",
+        "Snacks",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0046",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Dry fruit mix",
+      "expected_category": "Snacks",
+      "got": [
+        "Haldiram's Dry fruit mix 200 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0047",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Uttam SOOJI",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Uttam SOOJI 500 g"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0048",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Badam Flavoured Milk",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Cavin's Badam Flavoured Milk 170 ml",
+        "Milk"
+      ],
+      "got_categories": [
+        "Dry Fruits",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0049",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Amul Vanilla Royale",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Amul Vanilla Royale 405 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0050",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Percol Expresso Noir Coffee Powder",
+      "expected_category": "Beverages",
+      "got": [
+        "Percol Expresso Noir Coffee Powder 100 g",
+        "Instant Coffee (50 g jar)"
+      ],
+      "got_categories": [
+        "Beverages",
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0051",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Ramji Net Fryums",
+      "expected_category": "Snacks",
+      "got": [
+        "Ramji Net Fryums 200 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0052",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Kaju 240",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Premia Kaju 240 100 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0053",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Amul Dark Chocolate",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Amul Dark Chocolate 150 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0054",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "Mukharochak special papri chanachur",
+      "expected_category": "Snacks",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0055",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Kelloggs Chocos Multigrain",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Kellogg's Kelloggs Chocos Multigrain 1.2 kg"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0056",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Vedaka Toor dal",
+      "expected_category": "Pulses",
+      "got": [
+        "Vedaka Toor dal 1 kg"
+      ],
+      "got_categories": [
+        "Pulses"
+      ]
+    },
+    {
+      "id": "b0057",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Karachi Bakery Rose Shortbread Biscuit",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Karachi Bakery Rose Shortbread Biscuit 250 g",
+        "Glucose Biscuits"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0058",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Zahidi Dates",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Candor Dates Zahidi Dates 500 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0059",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "The Only Cinnamon Powder you need",
+      "expected_category": "Spices",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0060",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Maxcrunch (Tango Chocolatey Rice Cereal)",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Tango Maxcrunch (Tango Chocolatey Rice Cereal) 140 g",
+        "Rice"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0061",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Ragi Malt",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Manna Ragi Malt 200 g"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0062",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Chatkeens Khatta Meetha mixture",
+      "expected_category": "Snacks",
+      "got": [
+        "Parle Chatkeens Khatta Meetha mixture 530 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0063",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Nourish+ High Protein Paneer",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Heritage Nourish+ High Protein Paneer 240 g",
+        "Paneer"
+      ],
+      "got_categories": [
+        "Dairy & Bakery",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0064",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Gopal Bhavnagari Gathiya",
+      "expected_category": "Snacks",
+      "got": [
+        "Gopal Bhavnagari Gathiya 250 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0065",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Horlicks",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "GSK Horlicks 1 kg"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0066",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "3 Roses Natural Care Tea",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Tea Leaves (250 g pack)"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0067",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Knorr Schezwan Sauce 200 g",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Knorr Schezwan Sauce 200 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0068",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Yoga Bar Instant Oats+",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Yoga Bar Instant Oats+ 900 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0069",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Top Ramen Atta Masala Noodles",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Top Ramen Atta Masala Noodles 280 g",
+        "Instant Noodles"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0070",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Fab Bourbon Biscuit",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Fab Bourbon Biscuit 150 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0071",
+      "lang": "hinglish",
+      "verdict": "not_recognised",
+      "expected": "Ajwain",
+      "expected_category": "Spices",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0072",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Chocolate",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Dairy Milk Chocolate 21 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0073",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Patanjali Rock Salt",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Patanjali Rock Salt 1 kg"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0074",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Tic Tac Mint",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Tic Tac Mint 13 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0075",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Independence Chocolate Flavoured Milkshake",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Independence Chocolate Flavoured Milkshake 200 ml"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0076",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Epigamia Greek Yogurt Strawberry",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Epigamia Greek Yogurt Strawberry 90 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0077",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Momo Dumplings Chicken Curry",
+      "expected_category": "Snacks",
+      "got": [
+        "Deep Indian Kitchen Momo Dumplings Chicken Curry 221 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0078",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Maggi noodles masala",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Nestle Maggi noodles masala 560 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0079",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Roasted Flax Seeds",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Himalayan Natives Roasted Flax Seeds 150 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0080",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Masoor dal",
+      "expected_category": "Pulses",
+      "got": [
+        "Toor Dal",
+        "Moong Dal",
+        "Chana Dal"
+      ],
+      "got_categories": [
+        "Pulses",
+        "Pulses",
+        "Pulses"
+      ]
+    },
+    {
+      "id": "b0081",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Vinegar white",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Tops Vinegar white 610 ml"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0082",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Ghee",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "GRB Ghee 9.1 g"
+      ],
+      "got_categories": [
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0083",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Coffee Fudge",
+      "expected_category": "Beverages",
+      "got": [
+        "Wholy Coffee Fudge 40 g"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0084",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Real fruit mango drink",
+      "expected_category": "Beverages",
+      "got": [
+        "Real fruit mango drink 200 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0085",
+      "lang": "hinglish",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Amul Ghee 1ltr",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Amul ghee 500 g",
+        "Amul Ghee 1 l"
+      ],
+      "got_categories": [
+        "Oil & Ghee",
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0086",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Karachi Bakery Multi Nutrition Cookies",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Karachi Bakery Multi Nutrition Cookies 250 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0087",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Himalaya Honey",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Apis Himalaya Honey 100 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0088",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Protein Milkshake- Choco mint flavour",
+      "expected_category": "Beverages",
+      "got": [
+        "Raw Pressery Protein Milkshake- Choco mint flavour 200 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0089",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Yummiez Veg. Cheese Fingers",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Godrej Tyson Yummiez Veg. Cheese Fingers 400 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0090",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Buffalo Curd",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Sids Farm Buffalo Curd 400 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0091",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Krackjack",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Krackjack 56.7 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0092",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Rava",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Premia Rava 1 kg"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0093",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Go Cheese Slices",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Gowardhan Go Cheese Slices 100 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0094",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "chukde Kali Mirch Sabut",
+      "expected_category": "Spices",
+      "got": [
+        "chukde Kali Mirch Sabut 100 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0095",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Eastern Mustard",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Eastern Mustard 100 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0096",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Everest Rajma Masala",
+      "expected_category": "Spices",
+      "got": [
+        "Rajma",
+        "Garam Masala (50 g pack)"
+      ],
+      "got_categories": [
+        "Pulses",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0097",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Millet namkeen mango achari",
+      "expected_category": "Snacks",
+      "got": [
+        "Eat Better Co Millet namkeen mango achari 32 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0098",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Britannia Nutri Choice Oats",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Nutri Choice Oats 75 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0099",
+      "lang": "gu",
+      "verdict": "wrong_product",
+      "expected": "Pure cow ghee",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "Ghee"
+      ],
+      "got_categories": [
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0100",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Butter Cookies",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "SAPPHIRE Butter Cookies 400 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0101",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Amul cow ghee",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Amul cow ghee 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0102",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Creme 4 Fun",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Dukes Creme 4 Fun 150 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0103",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Tata Tea Chakra Gold",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Tata Tea Chakra Gold 250 g"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0104",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Surja Moong Dal Mix",
+      "expected_category": "Snacks",
+      "got": [
+        "Surja Moong Dal Mix 200 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0105",
+      "lang": "hinglish",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Amul ghee",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "Amul ghee 500 g",
+        "Amul Ghee 1 l"
+      ],
+      "got_categories": [
+        "Oil & Ghee",
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0106",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Best firms jeera 500g",
+      "expected_category": "Spices",
+      "got": [
+        "Best firms jeera 500 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0107",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Smart Choice Chana Masala Papad",
+      "expected_category": "Snacks",
+      "got": [
+        "Spencer Smart Choice Chana Masala Papad 200 g",
+        "Chana Dal",
+        "Kabuli Chana (Chickpeas)"
+      ],
+      "got_categories": [
+        "Snacks",
+        "Pulses",
+        "Pulses"
+      ]
+    },
+    {
+      "id": "b0108",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "KitKat Delights dark",
+      "expected_category": "Snacks",
+      "got": [
+        "Nestle KitKat Delights dark 50 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0109",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Tropicana CRANBERRY",
+      "expected_category": "Beverages",
+      "got": [
+        "Tropicana CRANBERRY 1 l"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0110",
+      "lang": "hinglish",
+      "verdict": "not_recognised",
+      "expected": "Thattai",
+      "expected_category": "Snacks",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0111",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Multgrain Bread",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Modern Multgrain Bread 400 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0112",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Compounded hing",
+      "expected_category": "Spices",
+      "got": [
+        "Catch Compounded hing 25 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0113",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Paneer",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Govind Paneer 180 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0114",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Oats",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "DiSano Oats 1 kg"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0115",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Bournvita",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Cadbury Bournvita 25 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0116",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Venezuela Ebony Twist",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Amul Venezuela Ebony Twist 125 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0117",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Nabati CocoLava Coconut Flavoured Cream Wafer Biscuits",
+      "expected_category": "Snacks",
+      "got": [
+        "Nabati CocoLava Coconut Flavoured Cream Wafer Biscuits 30 g",
+        "Potato Chips",
+        "Glucose Biscuits"
+      ],
+      "got_categories": [
+        "Snacks",
+        "Snacks",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0118",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Methi",
+      "expected_category": "Spices",
+      "got": [
+        "DMart Premia Methi 100 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0119",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "Patal pohe chiwda",
+      "expected_category": "Snacks",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0120",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Cheeselings - Classic",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Cheeselings - Classic 150 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0121",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Harvest Gold White Bread",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Harvest Gold White Bread 700 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0122",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Omani Seedless Dates",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Nature's Choice Omani Seedless Dates 500 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0123",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Finger Millet (Ragi Atta)",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Ganesh Finger Millet (Ragi Atta) 500 g",
+        "Wheat Flour (Atta)"
+      ],
+      "got_categories": [
+        "Grains & Flour",
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0124",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Vermicelli",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Bambino Vermicelli 1.4 kg"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0125",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Tasty Nuts",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Haldiram's Tasty Nuts 40 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0126",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Bhel Mix",
+      "expected_category": "Snacks",
+      "got": [
+        "Balaji Wafers Bhel Mix 22 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0127",
+      "lang": "en",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Nutrela Soya chunks 220gm",
+      "expected_category": "Pulses",
+      "got": [
+        "Nutrela Soya Chunks 220 g",
+        "Nutrela Soya chunks 220 g"
+      ],
+      "got_categories": [
+        "Oil & Ghee",
+        "Pulses"
+      ]
+    },
+    {
+      "id": "b0128",
+      "lang": "hi",
+      "verdict": "not_recognised",
+      "expected": "Classic Emirates Dates",
+      "expected_category": "Dry Fruits",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0129",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Wagh Bakri tea",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Wagh Bakri tea 500 g"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0130",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Masala vag atta noodles",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Nestle Masala vag atta noodles 72.5 g",
+        "Wheat Flour (Atta)",
+        "Instant Noodles"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Grains & Flour",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0131",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Sprite",
+      "expected_category": "Beverages",
+      "got": [
+        "Coca-Cola Company Sprite 740 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0132",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Nandini Good Life",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Nandini Good Life 180 ml"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0133",
+      "lang": "hi",
+      "verdict": "wrong_product",
+      "expected": "Fresh paneer",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Eggs",
+        "Paneer"
+      ],
+      "got_categories": [
+        "Dairy & Bakery",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0134",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Bagrry`s Crunchy Muesli",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Bagrry's Bagrry`s Crunchy Muesli 425 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0135",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "MilkyMist Cow Ghee",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "Milky Mist MilkyMist Cow Ghee 2 l",
+        "Ghee"
+      ],
+      "got_categories": [
+        "Oil & Ghee",
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0136",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Aquafina",
+      "expected_category": "Beverages",
+      "got": [
+        "Aquafina 500 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0137",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Popular Coriander (Dhaniya Seeds)",
+      "expected_category": "Spices",
+      "got": [
+        "Popular Coriander (Dhaniya Seeds) 200 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0138",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "BRITANNIA nutri SUGAR, FREE",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "BRITANNIA nutri SUGAR, FREE 300 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0139",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Bakarwadi",
+      "expected_category": "Snacks",
+      "got": [
+        "LaxmiNarayan Bakarwadi 200 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0140",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Takatak Chatpata Masala",
+      "expected_category": "Snacks",
+      "got": [
+        "Haldiram's Takatak Chatpata Masala 71 g",
+        "Garam Masala (50 g pack)"
+      ],
+      "got_categories": [
+        "Snacks",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0141",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Idli/Dosa/Chilly Chutney Powder",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "MTR Idli/Dosa/Chilly Chutney Powder 100 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0142",
+      "lang": "en",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Tandoori Sauce",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Dr. Oetker Tandoori Sauce 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0143",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Uncle Chiprs",
+      "expected_category": "Snacks",
+      "got": [
+        "10 Rs Uncle Chiprs 24 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0144",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Peanut Butter Creamy",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "GOODY Peanut Butter Creamy 340 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0145",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Shots",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Cadbury Shots 208.8 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0146",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Oats and Raisins Cookies",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Sunfeast Oats and Raisins Cookies 150 g",
+        "Raisins"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0147",
+      "lang": "en",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Maggi 2-minute noodles Special Masala",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Nestle Maggi 2-minute noodles Special Masala 70 g",
+        "Nestle Maggi noodles masala 560 g",
+        "Instant Noodles"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Breakfast & Noodles",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0148",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Modern Fruity Bread",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Modern Fruity Bread 200 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0149",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Hershey's Spreads Cocoa with Almond",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Hershey's Spreads Cocoa with Almond 150 g",
+        "Almonds"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0150",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Super Strong Blend Coffee",
+      "expected_category": "Beverages",
+      "got": [
+        "Instant Coffee (50 g jar)"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0151",
+      "lang": "hinglish",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "OMG! Oh My Ganna Cumin Crush",
+      "expected_category": "Beverages",
+      "got": [
+        "Nutricane OMG! Oh My Ganna Cumin Crush 250 ml",
+        "Nutricane OMG! Oh My Ganna Ginger Groove 250 ml",
+        "Cumin Seeds (Jeera)"
+      ],
+      "got_categories": [
+        "Beverages",
+        "Beverages",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0152",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Indic Wisdom Wood Pressed Safflower Oil 1 Ltr",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "Indic Wisdom Wood Pressed Safflower Oil 1 l",
+        "Groundnut Oil"
+      ],
+      "got_categories": [
+        "Oil & Ghee",
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0153",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Hide & seek Milano chocolate chip",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Hide & seek Milano chocolate chip 150 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0154",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "Fennel (Saunf) Lucknow",
+      "expected_category": "Spices",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0155",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Good life chilli powder",
+      "expected_category": "Spices",
+      "got": [
+        "Red Chilli Powder"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0156",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Black Truffle With Salt",
+      "expected_category": "Snacks",
+      "got": [
+        "Kettle Studio Black Truffle With Salt 150 g",
+        "Salt"
+      ],
+      "got_categories": [
+        "Snacks",
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0157",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Tunisian Dates",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "BARARI Tunisian Dates 500 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0158",
+      "lang": "hi",
+      "verdict": "not_recognised",
+      "expected": "Brooke Bond 3 Roses Natural Care",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0159",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Gobbles Orange Bites cake",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Gobbles Orange Bites cake 50 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0160",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Bru Instant Coffee",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Hindustan Unilever Limited Bru Instant Coffee 6 g",
+        "Instant Coffee (50 g jar)"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0161",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Treat Vanilla Creme",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Treat Vanilla Creme 60 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0162",
+      "lang": "en",
+      "verdict": "not_recognised",
+      "expected": "Popcorn maize",
+      "expected_category": "Snacks",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0163",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Double Chocolate Milk Shake",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Amul Double Chocolate Milk Shake 180 ml",
+        "Milk"
+      ],
+      "got_categories": [
+        "Dairy & Bakery",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0164",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Corn Flakes Original",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Kellogg's Corn Flakes Original 24 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0165",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Poha",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "First Crop Poha 500 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0166",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Little Hearts",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Little Hearts 15 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0167",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Masala Pori",
+      "expected_category": "Snacks",
+      "got": [
+        "Town Bus Masala Pori 28 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0168",
+      "lang": "hi",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "OMG! Oh My Ganna Ginger Groove",
+      "expected_category": "Beverages",
+      "got": [
+        "Nutricane OMG! Oh My Ganna Cumin Crush 250 ml",
+        "Nutricane OMG! Oh My Ganna Ginger Groove 250 ml",
+        "Ginger"
+      ],
+      "got_categories": [
+        "Beverages",
+        "Beverages",
+        "Vegetables"
+      ]
+    },
+    {
+      "id": "b0169",
+      "lang": "gu",
+      "verdict": "wrong_product",
+      "expected": "Zero Maida Bread",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Maida (Refined Flour)",
+        "Bread"
+      ],
+      "got_categories": [
+        "Grains & Flour",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0170",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Southwest Chipotle Dressing",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Veeba Southwest Chipotle Dressing 300 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0171",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Cornflakes Almond Honey (Kellogg's)",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Kellogg's Cornflakes Almond Honey (Kellogg's) 1 kg"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0172",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Mo'plleez Vermicelli",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Haldiram's Mo'plleez Vermicelli 1 kg"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0173",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Wai wai RTE veg noodles",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Wai wai RTE veg noodles 75 g",
+        "Instant Noodles"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0174",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Tender Coconut Water",
+      "expected_category": "Beverages",
+      "got": [
+        "Richyum Tender Coconut Water 200 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0175",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "soan Papdi Chocolate",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Haldiram's soan Papdi Chocolate 250 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0176",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Sarasaparilla Squash",
+      "expected_category": "Beverages",
+      "got": [
+        "Babu's Sarasaparilla Squash 1 l"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0177",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Snack Factory Makhana Popped Fox Nuts",
+      "expected_category": "Snacks",
+      "got": [
+        "Snack Factory Inc Snack Factory Makhana Popped Fox Nuts 14 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0178",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Oats",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "True Elements Oats 500 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0179",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Amritsari papad",
+      "expected_category": "Snacks",
+      "got": [
+        "First Crop Amritsari papad 200 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0180",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Dairy Milk Chocolate",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Mondelez Dairy Milk Chocolate 36 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0181",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Crust & Crumb cocoa powder",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Crust & Crumb cocoa powder 50 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0182",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Zoff Clove Whole",
+      "expected_category": "Spices",
+      "got": [
+        "Zoff Clove Whole 25 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0183",
+      "lang": "hi",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Parle g 800 g",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle-G 100 g",
+        "Parle g 800 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0184",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Jayanti Orange",
+      "expected_category": "Beverages",
+      "got": [
+        "Jayanti Orange 160 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0185",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Green Tea",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Ripple Tea Green Tea 250 g",
+        "Tea Leaves (250 g pack)"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea",
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0186",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Yum Nuts Tangy Tomato",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Vittal Yum Nuts Tangy Tomato 60 g",
+        "Tomato"
+      ],
+      "got_categories": [
+        "Dry Fruits",
+        "Vegetables"
+      ]
+    },
+    {
+      "id": "b0187",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Multigrain Atta",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Pillsbury Multigrain Atta 5 kg"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0188",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Noni juice",
+      "expected_category": "Beverages",
+      "got": [
+        "Modicare Noni juice 1 l"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0189",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Jim Jam Biscuits",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Jim Jam Biscuits 62 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0190",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Britannia Bread",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Britannia Bread 250 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0191",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Choco Cake Sliced",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Winkies Choco Cake Sliced 110 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0192",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Giloy Juice",
+      "expected_category": "Beverages",
+      "got": [
+        "Patanjali Giloy Juice 500 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0193",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Milk Shakti",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Milk Shakti 75 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0194",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Sunrise jeera powder",
+      "expected_category": "Spices",
+      "got": [
+        "Sunrise jeera powder 50 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0195",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Chana Jor Garam",
+      "expected_category": "Snacks",
+      "got": [
+        "Balaji Chana Jor Garam 250 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0196",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Craze Coffee Marie",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Craze Coffee Marie 125 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0197",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Sugar",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Madhur Sugar 1 kg"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0198",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Smoodh chocolate",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Agro Smoodh chocolate 80 ml"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0199",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Milk Bikis",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Milk Bikis 100 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0200",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "N-pro Milk",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Nandini N-pro Milk 500 ml"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0201",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Gram flour",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Wheat Flour (Atta)"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0202",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Dark Fantasy Bourbon Biscuit",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Sunfeast Dark Fantasy Bourbon Biscuit 108 g",
+        "Glucose Biscuits"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0203",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Rusk Real Premium Elaichi",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle Rusk Real Premium Elaichi 400 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0204",
+      "lang": "gu",
+      "verdict": "wrong_product",
+      "expected": "Organic brown sugar",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Sugar"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0205",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Desi Khand",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Oswal Desi Khand 1 kg"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0206",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Cookie Cream Protein Shake",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Epigamia Cookie Cream Protein Shake 25 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0207",
+      "lang": "en",
+      "verdict": "not_recognised",
+      "expected": "Knorr",
+      "expected_category": "Sauces & Spreads",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0208",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Peanut Butter Dark Chocolate Creamy",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Pintos Peanut Butter Dark Chocolate Creamy 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0209",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Multigrain Choco Flakes",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Kwality Multigrain Choco Flakes 9 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0210",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Spicy Buttermilk",
+      "expected_category": "Beverages",
+      "got": [
+        "Godrej Spicy Buttermilk 500 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0211",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Chocolate Coconut Cookies",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Nourish Irganics Chocolate Coconut Cookies 120 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0212",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Tomato Ketchup",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Heinz Tomato Ketchup 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0213",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Chocolate Chikki",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Nutritius Chocolate Chikki 26 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0214",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Engine Filtered Groundnut Oil",
+      "expected_category": "Oil & Ghee",
+      "got": [
+        "Engine Filtered Groundnut Oil 1 l"
+      ],
+      "got_categories": [
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0215",
+      "lang": "hinglish",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Veg mayonnaise",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Dr. Oetker Veg mayonnaise 100 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0216",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Eggless Mayonnaise",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Del Monte Eggless Mayonnaise 900 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0217",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "SnacTac Vanila Wafer",
+      "expected_category": "Snacks",
+      "got": [
+        "SnacTac Vanila Wafer 75 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0218",
+      "lang": "hi",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Tata Soulfull Millet Muesli",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Tata Soulfull Millet Muesli 1 kg",
+        "Tata Soulfull Millet Muesli Chocolate & Cranberry 500 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0219",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Sunrise Chana Masala",
+      "expected_category": "Spices",
+      "got": [
+        "Sunrise Chana Masala 50 g"
+      ],
+      "got_categories": [
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0220",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Pro-Pl Protein for Pregnancy & Lactation",
+      "expected_category": "Beverages",
+      "got": [
+        "Pro-Pl Protein for Pregnancy & Lactation 500 g"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0221",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Bingo Cheese Curlz",
+      "expected_category": "Snacks",
+      "got": [
+        "Bi go Bingo Cheese Curlz 16 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0222",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Happy Full Cream Milk",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Heritage Happy Full Cream Milk 500 ml",
+        "Milk"
+      ],
+      "got_categories": [
+        "Dairy & Bakery",
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0223",
+      "lang": "hi",
+      "verdict": "not_recognised",
+      "expected": "Yu 100% coconut water",
+      "expected_category": "Beverages",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0224",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Fruit Cake with Raisin & Tutti Frutti",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Winkies Fruit Cake with Raisin & Tutti Frutti 130 g",
+        "Turmeric Powder"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0225",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Tim Tim walnut",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Kashmir Walnut Group Tim Tim walnut 250 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0226",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Mango Slice",
+      "expected_category": "Beverages",
+      "got": [
+        "Pepsico Mango Slice 600 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0227",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Spice Mix for Paneer Butter Masala",
+      "expected_category": "Spices",
+      "got": [
+        "Mother's Recipe Spice Mix for Paneer Butter Masala 75 g",
+        "Paneer",
+        "Butter (100 g pack)"
+      ],
+      "got_categories": [
+        "Spices",
+        "Dairy & Bakery",
+        "Oil & Ghee"
+      ]
+    },
+    {
+      "id": "b0228",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Maggi Rich Tomato Ketchup Pichkoo",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Maggi Rich Tomato Ketchup Pichkoo 120 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0229",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Dried Apricots",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Türkel Dried Apricots 400 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0230",
+      "lang": "hinglish",
+      "verdict": "not_recognised",
+      "expected": "Organic Masoor Malka Split",
+      "expected_category": "Pulses",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0231",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Veg magic fruit cake",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Priyagold Veg magic fruit cake 150 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0232",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Thums Up",
+      "expected_category": "Beverages",
+      "got": [
+        "ThumsUp Thums Up 250 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0233",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Buldak 2x spicy chicken noodles",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Samyang Buldak 2x spicy chicken noodles 700 g",
+        "Instant Noodles"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0234",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Vanilla ice cream",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Dinshaw Vanilla ice cream 700 ml"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0235",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Tata Tea Agni Elaichi Chai",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Tata Tea Agni Elaichi Chai 1 kg",
+        "Tea Leaves (250 g pack)"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea",
+        "Sugar, Salt & Tea"
+      ]
+    },
+    {
+      "id": "b0236",
+      "lang": "hinglish",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Parle-G",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Parle-G 100 g",
+        "Parle g 800 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0237",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Lays Classics Salted 20rs",
+      "expected_category": "Snacks",
+      "got": [
+        "Lay's Lays Classics Salted 20rs 50 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0238",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Alphonso Mango Ice Cream",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Nic Alphonso Mango Ice Cream 500 ml"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0239",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "haldirams Boondi 200g",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Haldiram's haldirams Boondi 200 g"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0240",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "White Oats",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Bagrry's White Oats 1.5 kg"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0241",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Mixed Pickle",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Imli Tree Mixed Pickle 400 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0242",
+      "lang": "en",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Thums up",
+      "expected_category": "Beverages",
+      "got": [
+        "Coca-Cola Thums up 750 ml",
+        "Coca-Cola Thums Up 1.25 l"
+      ],
+      "got_categories": [
+        "Beverages",
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0243",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Beaten Caffee Powder",
+      "expected_category": "Beverages",
+      "got": [
+        "Sunbean Beaten Caffee Powder 12 g"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0244",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "Chia Seed",
+      "expected_category": "Dry Fruits",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0245",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Sunfeast yeppi noodles",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Sunfeast yeppi noodles 280 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0246",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Pichkoo",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Maggi Pichkoo 75 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0247",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Coffee",
+      "expected_category": "Beverages",
+      "got": [
+        "Blue Tokai Coffee 250 g"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0248",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Mysore Rasam Powder",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "SriVaraha Foods Mysore Rasam Powder 10 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0249",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Chowmein hakka noodles masala",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Ching's Chowmein hakka noodles masala 20 g",
+        "Instant Noodles",
+        "Garam Masala (50 g pack)"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Snacks",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0250",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Peanut Butter All Natural Creamy Unsweetened",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Pintola Peanut Butter All Natural Creamy Unsweetened 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0251",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Curd Pouch",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Aashirvaad Curd Pouch 380 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0252",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Marinara Pizza & Pasta Sauce",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Veeba Marinara Pizza & Pasta Sauce 310 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0253",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Moong Dal",
+      "expected_category": "Snacks",
+      "got": [
+        "Prabhuji Pure Food Moong Dal 42 g",
+        "Toor Dal",
+        "Moong Dal"
+      ],
+      "got_categories": [
+        "Snacks",
+        "Pulses",
+        "Pulses"
+      ]
+    },
+    {
+      "id": "b0254",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Masala penne pasta",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Nestle Masala penne pasta 65 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0255",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Citron Pickle",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "VEMICA Citron Pickle 200 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0256",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "True Elements Steel Cut Oats",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "True Elements Steel Cut Oats 1 kg"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0257",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Pravin Mango Pickle",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Pravin Mango Pickle 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0258",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Milkybar ( Choo - Mix Fruit )",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Nestle Milkybar ( Choo - Mix Fruit ) 308 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0259",
+      "lang": "gu",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Cadbury Dairy Milk",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Cadbury Dairy Milk 100 g",
+        "Cadbury Dairy Milk 36 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets",
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0260",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Macadamia Dragees",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Entisi Macadamia Dragees 100 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0261",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Bingo Mad Angles",
+      "expected_category": "Snacks",
+      "got": [
+        "ITC Limited Bingo Mad Angles 15 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0262",
+      "lang": "en",
+      "verdict": "not_recognised",
+      "expected": "Mango Pickle",
+      "expected_category": "Sauces & Spreads",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0263",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Chekaralu",
+      "expected_category": "Snacks",
+      "got": [
+        "Haldiram's Chekaralu 150 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0264",
+      "lang": "gu",
+      "verdict": "ambiguous_contains_expected",
+      "expected": "Yippee",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Sunfeast Yippee 480 g",
+        "Sunfeast Yippee noodles magic masala goat 60 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0265",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Monaco",
+      "expected_category": "Snacks",
+      "got": [
+        "Parle Monaco 34.8 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0266",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Nescafe Sunrise",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Nestle Nescafe Sunrise 5 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0267",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Yippee noodles magic masala goat",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Sunfeast Yippee noodles magic masala goat 60 g",
+        "Instant Noodles",
+        "Garam Masala (50 g pack)"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles",
+        "Snacks",
+        "Spices"
+      ]
+    },
+    {
+      "id": "b0268",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Max Protein Daily Choco Almond Bar",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Max Protein Daily Choco Almond Bar 50 g",
+        "Almonds"
+      ],
+      "got_categories": [
+        "Dry Fruits",
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0269",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Soya chips",
+      "expected_category": "Snacks",
+      "got": [
+        "Haldirams Soya chips 50 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0270",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Basmati rice (raw)",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "India Gate Basmati rice (raw) 1 kg"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0271",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Maaza",
+      "expected_category": "Beverages",
+      "got": [
+        "Coca-Cola Company Maaza 250 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0272",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "YogaBar Nuts & Seeds Crunch Super Muesli",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "YogaBar Nuts & Seeds Crunch Super Muesli 400 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0273",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Wicked Gud Masala Noodles",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Wicked Gud Masala Noodles 67 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0274",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "Nero",
+      "expected_category": "Beverages",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0275",
+      "lang": "hinglish",
+      "verdict": "not_recognised",
+      "expected": "Raw Pressery 250ml pet Sugarcane Juice",
+      "expected_category": "Beverages",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0276",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Moong Papad",
+      "expected_category": "Snacks",
+      "got": [
+        "Moong Dal",
+        "Papad (pack)"
+      ],
+      "got_categories": [
+        "Pulses",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0277",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Aloevera pulp & juice",
+      "expected_category": "Beverages",
+      "got": [
+        "Yoga pulp Aloevera pulp & juice 200 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0278",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "DELISH Mayonnaise",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "DELISH Mayonnaise 750 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0279",
+      "lang": "gu",
+      "verdict": "not_recognised",
+      "expected": "Amchur powder",
+      "expected_category": "Spices",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0280",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Amla Candy",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Markfed Sohna Amla Candy 500 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0281",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Good Life Ragi Flour",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Wheat Flour (Atta)"
+      ],
+      "got_categories": [
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0282",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Dark Chocolate Peanut Butter",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Yoga Bar Dark Chocolate Peanut Butter 400 g",
+        "Peanut butter 1 kg"
+      ],
+      "got_categories": [
+        "Sauces & Spreads",
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0283",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Hatsun Curd",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Hatsun Curd 200 g"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0284",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Mala Chanachur",
+      "expected_category": "Snacks",
+      "got": [
+        "Halder's Mala Chanachur 400 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0285",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Patanwala Kesar shrikhand",
+      "expected_category": "Snacks",
+      "got": [
+        "Patanwala Kesar shrikhand 200 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0286",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Top Ramen",
+      "expected_category": "Breakfast & Noodles",
+      "got": [
+        "Nissin Top Ramen 500 g"
+      ],
+      "got_categories": [
+        "Breakfast & Noodles"
+      ]
+    },
+    {
+      "id": "b0287",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Belgian Waffle Co Dark Choco Spread",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Belgian Waffle Co Dark Choco Spread 250 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0288",
+      "lang": "hi",
+      "verdict": "not_recognised",
+      "expected": "Candyman Fruitee Fun",
+      "expected_category": "Biscuits & Sweets",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0289",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Toned Milk a+",
+      "expected_category": "Dairy & Bakery",
+      "got": [
+        "Nestle Toned Milk a+ 1 l"
+      ],
+      "got_categories": [
+        "Dairy & Bakery"
+      ]
+    },
+    {
+      "id": "b0290",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "Mokto Mojito",
+      "expected_category": "Beverages",
+      "got": [
+        "Stallion Drinks Mokto Mojito 400 ml"
+      ],
+      "got_categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "b0291",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Honey",
+      "expected_category": "Sauces & Spreads",
+      "got": [
+        "Patanjali Honey 500 g"
+      ],
+      "got_categories": [
+        "Sauces & Spreads"
+      ]
+    },
+    {
+      "id": "b0292",
+      "lang": "en",
+      "verdict": "exact",
+      "expected": "Mom Chinese Fried Rice",
+      "expected_category": "Grains & Flour",
+      "got": [
+        "Alimento Agro Mom Chinese Fried Rice 87 g",
+        "Rice"
+      ],
+      "got_categories": [
+        "Grains & Flour",
+        "Grains & Flour"
+      ]
+    },
+    {
+      "id": "b0293",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Cake Fudge It - Choco Brownie",
+      "expected_category": "Biscuits & Sweets",
+      "got": [
+        "Britannia Cake Fudge It - Choco Brownie 120 g"
+      ],
+      "got_categories": [
+        "Biscuits & Sweets"
+      ]
+    },
+    {
+      "id": "b0294",
+      "lang": "gu",
+      "verdict": "exact",
+      "expected": "Lion Qyno Dates 500gm",
+      "expected_category": "Dry Fruits",
+      "got": [
+        "Lion Qyno Dates 500 g"
+      ],
+      "got_categories": [
+        "Dry Fruits"
+      ]
+    },
+    {
+      "id": "b0295",
+      "lang": "hinglish",
+      "verdict": "wrong_product",
+      "expected": "Classic Salted Potato Chips",
+      "expected_category": "Snacks",
+      "got": [
+        "Potato Chips"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0296",
+      "lang": "hinglish",
+      "verdict": "exact",
+      "expected": "UNPOLISHED masoor dal",
+      "expected_category": "Pulses",
+      "got": [
+        "Tata Sampann UNPOLISHED masoor dal 1 kg",
+        "Toor Dal",
+        "Moong Dal"
+      ],
+      "got_categories": [
+        "Pulses",
+        "Pulses",
+        "Pulses"
+      ]
+    },
+    {
+      "id": "b0297",
+      "lang": "en",
+      "verdict": "not_recognised",
+      "expected": "Good Day cashew cookie",
+      "expected_category": "Biscuits & Sweets",
+      "got": [],
+      "got_categories": []
+    },
+    {
+      "id": "b0298",
+      "lang": "hi",
+      "verdict": "exact",
+      "expected": "Orion K Snack Rings 3x Spicy",
+      "expected_category": "Snacks",
+      "got": [
+        "Orion K Snack Rings 3x Spicy 70 g"
+      ],
+      "got_categories": [
+        "Snacks"
+      ]
+    },
+    {
+      "id": "b0299",
+      "lang": "gu",
+      "verdict": "wrong_product",
+      "expected": "Good life black salt 200g",
+      "expected_category": "Sugar, Salt & Tea",
+      "got": [
+        "Salt"
+      ],
+      "got_categories": [
+        "Sugar, Salt & Tea"
+      ]
+    }
+  ],
+  "caveats": [
+    "Sentences are templated from the product's own name, so this is an optimistic ceiling for name recognition.",
+    "Text only: no speech recognition is involved. Gnani Prisma may mis-hear brand names; run the Noise lab for that.",
+    "Only the held-out 10% of catalogue products are imported, so there are fewer look-alike competitors than in a full shop."
+  ]
+}

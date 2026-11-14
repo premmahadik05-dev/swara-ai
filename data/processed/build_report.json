@@ -1,0 +1,49 @@
+{
+  "source_id": "off_india_2026-07-05",
+  "built_by": "scripts/data/build_catalog.py",
+  "stages": {
+    "raw_rows": 21751,
+    "after_filters": 5411,
+    "catalog_rows": 5325
+  },
+  "rejections": {
+    "quantity_blank_or_unparseable": 10596,
+    "blank_name": 3119,
+    "no_kirana_category_or_excluded_type": 1673,
+    "invalid_or_non_ean13_barcode": 952,
+    "near_duplicate_of_a_newer_record": 86
+  },
+  "catalog": {
+    "rows": 5325,
+    "with_brand": 4834,
+    "brands": 1599,
+    "by_category": {
+      "Biscuits & Sweets": 834,
+      "Snacks": 687,
+      "Dairy & Bakery": 607,
+      "Beverages": 574,
+      "Sauces & Spreads": 513,
+      "Spices": 413,
+      "Breakfast & Noodles": 375,
+      "Grains & Flour": 346,
+      "Dry Fruits": 317,
+      "Sugar, Salt & Tea": 240,
+      "Pulses": 212,
+      "Oil & Ghee": 207
+    },
+    "category_rule_used": {
+      "cat:categories-generic": 395,
+      "cat:name": 1859,
+      "cat:categories": 3071
+    },
+    "split": {
+      "train": 4798,
+      "test": 527
+    },
+    "pack_units": {
+      "l": 895,
+      "kg": 4426,
+      "pc": 4
+    }
+  }
+}

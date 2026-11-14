@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "off_india_2026-07-05",
+      "title": "Open Food Facts: products sold in India (cleaned CSV snapshot)",
+      "origin": {
+        "name": "Open Food Facts (India database)",
+        "url": "https://in.openfoodfacts.org/",
+        "licence_database": "Open Database License (ODbL) 1.0",
+        "licence_contents": "Database Contents License (DbCL) 1.0",
+        "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "attribution": "Open Food Facts contributors, https://world.openfoodfacts.org/"
+      },
+      "retrieved_via": {
+        "name": "GitHub repository mvark/indiafoodstats (a volunteer's cleaned export of the OFF India database)",
+        "repo_url": "https://github.com/mvark/indiafoodstats",
+        "file_url_pinned": "https://raw.githubusercontent.com/mvark/indiafoodstats/d3624c4e5b00d2e5aa6d9d3c4b0b24f82a7bbb5a/data/all_2026-07-05.csv",
+        "commit": "d3624c4e5b00d2e5aa6d9d3c4b0b24f82a7bbb5a",
+        "repo_licence": "GNU AGPL-3.0 (see data/sources/indiafoodstats.LICENSE.txt)",
+        "why_this_route": "The build sandbox's network policy blocks openfoodfacts.org, data.gov.in and Kaggle. GitHub raw is reachable, so this republished export was used. Run scripts/data/fetch_sources.py on a machine with open internet to pin a newer snapshot."
+      },
+      "retrieved_on": "2026-11-10",
+      "snapshot_date_from_filename": "2026-07-05",
+      "local_file": "data/raw/off_india_2026-07-05.csv",
+      "sha256": "dd54bd7908e6111b1fb9243529e67230d78f24071d95fabc7164a418370fe639",
+      "bytes": 3448485,
+      "rows": 21751,
+      "fields": [
+        "code",
+        "product_name",
+        "brands",
+        "categories",
+        "quantity",
+        "nova_group",
+        "nutriscore_grade",
+        "creator",
+        "last_modified_t"
+      ],
+      "field_notes": {
+        "code": "Barcode (EAN/UPC) as typed by OFF contributors. Not all are valid.",
+        "product_name": "Serialised list of {lang, text}; many rows are blank.",
+        "brands": "Comma-separated, contributor-typed; casing and accents vary.",
+        "categories": "Free text, partly English tags; blank for more than half of the rows.",
+        "quantity": "Contributor-typed pack size ('250g', '1 l', '6 x 50 g'); blank for most rows.",
+        "nova_group / nutriscore_grade": "OFF-computed where inputs exist; kept for reference only.",
+        "creator / last_modified_t": "OFF contributor id and Unix time of last edit."
+      },
+      "limitations": [
+        "Crowdsourced: names, brands and pack sizes can be wrong or out of date.",
+        "Contains NO prices, stock, sales or shop-level data of any kind.",
+        "Over-represents packaged and branded food; loose staples (dal, rice, vegetables) are largely absent.",
+        "More than half of the rows lack a category or a usable pack size and are dropped by build_catalog.py.",
+        "No Gujarati or Hindi product names; those are never invented by this pipeline.",
+        "Popular products are not identifiable: the file has no scan counts, so selection is by completeness, not popularity."
+      ]
+    }
+  ],
+  "not_available_here": [
+    {
+      "source": "Open Prices (prices.openfoodfacts.org)",
+      "reason": "Host blocked by the build sandbox policy. One attempt to reach it through a browser was also blocked, and no further route was tried.",
+      "how_to_add": "Run a price-ingest on a machine with internet and put the CSV in data/raw/, then extend build_catalog.py."
+    },
+    {
+      "source": "Department of Consumer Affairs retail prices (data.gov.in)",
+      "reason": "Host blocked by the build sandbox policy; the portal also requires an API key for bulk access.",
+      "how_to_add": "Same as above. Commodity-level prices would feed `reference_price`, never a specific branded SKU."
+    }
+  ]
+}

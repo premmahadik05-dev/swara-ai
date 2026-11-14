@@ -1,0 +1,88 @@
+/* Design tokens. Every colour in the app comes from here; components never hard-code a colour.
+   SWARA AI has ONE theme: light. There is no dark mode, no "system" mode and no dark surface anywhere (the page also says
+   color-scheme: light, so a browser's own dark option does not recolour form controls or scrollbars).
+   Palette: white #FFFFFF (page and cards), ivory #F7F5EF (secondary surfaces), champagne gold #D6B574 (accent and primary actions),
+   text #242424, secondary text #686868, borders #EAE7DF. Gold is a FILL colour on light surfaces (too pale for text);
+   text that must be gold uses --gold-strong, which passes 4.5:1. The measured contrast figures are in docs/DESIGN.md. */
+
+:root {
+  color-scheme: light;
+
+  /* the brand colours */
+  --ink: #242424;
+  --gold-brand: #d6b574;
+  --ivory: #f7f5ef;
+
+  /* surfaces */
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f7f5ef;          /* secondary background: sidebar, table headers, inset panels, hover */
+  --surface-3: #efebe0;          /* one step deeper: pressed, selected, skeletons */
+  --overlay: rgba(247, 245, 239, 0.82);   /* the veil behind drawers and dialogs is light too */
+  --line: #eae7df;
+  --line-strong: #d9d4c6;
+
+  /* text (all pass 4.5:1 on white, ivory and surface-3; measured in docs/DESIGN.md) */
+  --text: #242424;
+  --text-2: #4a4a4a;
+  --text-3: #686868;
+
+  /* actions: the primary button is champagne gold with dark text, never a black fill */
+  --brand: #d6b574;
+  --brand-hover: #c9a459;
+  --brand-text: #242424;
+  --link: #7a5810;
+  --focus: #8a6414;
+
+  /* champagne gold: the voice assistant, the active-page marker and the brand mark; never body text on light */
+  --gold: #d6b574;
+  --gold-hover: #c9a459;
+  --gold-ink: #242424;
+  --gold-strong: #7a5810;
+  --gold-soft: #f5ecd6;
+  --gold-line: #e3cf9f;
+
+  /* logo gradient stops: champagne gold running down to a deeper antique gold, so the mark holds on ivory and white */
+  --logo-hi: #ddbf7c; --logo-mid: #bc9444; --logo-lo: #88621f;
+
+  /* status (each has fill, border and a text colour that passes 4.5:1 on its own fill) */
+  --ok: #0a6c47;      --ok-bg: #e8f7ef;   --ok-line: #a6dcc0;
+  --warn: #9a4a05;    --warn-bg: #fff4dc; --warn-line: #f0cf8c;
+  --bad: #b02a1f;     --bad-bg: #fdecea;  --bad-line: #f1b9b3;
+  --info: #1d4fb8;    --info-bg: #eaf0fd; --info-line: #b5c9f2;
+
+  /* chart colours: categorical slots are assigned in this order, never cycled (validated in docs/DESIGN.md) */
+  --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100;
+  --c-muted: #8a8578;
+  --chart-grid: #e9e5d9;
+  --chart-axis: #5f5b51;
+  --chart-ink: #242424;
+  --chart-surface: #ffffff;
+
+  /* shape + elevation: two radii, one shadow for floating layers only */
+  --r-sm: 6px;
+  --r: 10px;
+  --r-lg: 14px;
+  --shadow-pop: 0 14px 34px -10px rgba(36, 36, 36, 0.18), 0 2px 6px rgba(36, 36, 36, 0.06);
+  --shadow-card: 0 1px 2px rgba(36, 36, 36, 0.04);
+
+  /* type: Newsreader (an open-licence editorial serif, SIL OFL 1.1) for headlines; Geist for text and controls; the Noto Sans scripts
+     for the Indian languages, which neither Latin family covers. Headlines are never bold: the serif carries weight by size and spacing. */
+  --font-display: 'Newsreader Variable', Newsreader, 'Noto Sans Gujarati Variable', 'Noto Sans Devanagari Variable', 'Noto Sans Bengali Variable', 'Noto Sans Tamil Variable', 'Noto Sans Telugu Variable', 'Noto Sans Kannada Variable', 'Noto Sans Malayalam Variable', 'Noto Sans Gurmukhi Variable', Georgia, 'Times New Roman', serif;
+  --font: 'Geist Variable', 'Noto Sans Gujarati Variable', 'Noto Sans Devanagari Variable', 'Noto Sans Bengali Variable', 'Noto Sans Tamil Variable', 'Noto Sans Telugu Variable', 'Noto Sans Kannada Variable', 'Noto Sans Malayalam Variable', 'Noto Sans Gurmukhi Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'Geist Mono Variable', ui-monospace, 'SF Mono', Consolas, monospace;
+  --fs-xs: 12px;
+  --fs-sm: 13px;
+  --fs-md: 14px;
+  --fs-lg: 15px;
+  --fs-h3: 15px;
+  --fs-h2: 18px;
+  --fs-h1: 28px;
+  --fs-kpi: 28px;
+
+  /* layout */
+  --sidebar: 252px;
+  --sidebar-rail: 68px;
+  --topbar: 56px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

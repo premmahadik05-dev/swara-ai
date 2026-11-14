@@ -1,0 +1,246 @@
+{
+  "tag": "final",
+  "n_total": 288,
+  "sets": {
+    "handwritten": {
+      "utterances": 128,
+      "order_utterances": 114,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "4/4",
+      "no_item_no_false_add": "10/10",
+      "language_acc_all": 0.9922,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 0.9375
+    },
+    "templated": {
+      "utterances": 160,
+      "order_utterances": 160,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "0/0",
+      "no_item_no_false_add": "0/0",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    }
+  },
+  "by_language": {
+    "handwritten/gu": {
+      "utterances": 37,
+      "order_utterances": 34,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "1/1",
+      "no_item_no_false_add": "2/2",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    },
+    "handwritten/hi": {
+      "utterances": 30,
+      "order_utterances": 27,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "1/1",
+      "no_item_no_false_add": "2/2",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    },
+    "handwritten/hinglish": {
+      "utterances": 36,
+      "order_utterances": 32,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "1/1",
+      "no_item_no_false_add": "3/3",
+      "language_acc_all": 0.9722,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 0.9722
+    },
+    "handwritten/en": {
+      "utterances": 25,
+      "order_utterances": 21,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "1/1",
+      "no_item_no_false_add": "3/3",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 0.72
+    },
+    "templated/gu": {
+      "utterances": 40,
+      "order_utterances": 40,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "0/0",
+      "no_item_no_false_add": "0/0",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    },
+    "templated/hi": {
+      "utterances": 40,
+      "order_utterances": 40,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "0/0",
+      "no_item_no_false_add": "0/0",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    },
+    "templated/hinglish": {
+      "utterances": 40,
+      "order_utterances": 40,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "0/0",
+      "no_item_no_false_add": "0/0",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    },
+    "templated/en": {
+      "utterances": 40,
+      "order_utterances": 40,
+      "line_exact (sku+qty+unit)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "product_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "utterance_exact": 1.0,
+      "ambiguous_not_guessed": "0/0",
+      "no_item_no_false_add": "0/0",
+      "language_acc_all": 1.0,
+      "language_acc_when_confident": 1.0,
+      "language_confident_share": 1.0
+    }
+  },
+  "noise": {
+    "char_error_rate_0.00": {
+      "utterance_exact_mean": 1.0,
+      "line_f1_mean": 1.0,
+      "utterance_exact_min": 1.0,
+      "utterance_exact_max": 1.0
+    },
+    "char_error_rate_0.03": {
+      "utterance_exact_mean": 0.7842,
+      "line_f1_mean": 0.8364,
+      "utterance_exact_min": 0.7281,
+      "utterance_exact_max": 0.8158
+    },
+    "char_error_rate_0.06": {
+      "utterance_exact_mean": 0.6333,
+      "line_f1_mean": 0.7127,
+      "utterance_exact_min": 0.614,
+      "utterance_exact_max": 0.6754
+    },
+    "char_error_rate_0.10": {
+      "utterance_exact_mean": 0.4561,
+      "line_f1_mean": 0.5369,
+      "utterance_exact_min": 0.4123,
+      "utterance_exact_max": 0.4912
+    },
+    "char_error_rate_0.15": {
+      "utterance_exact_mean": 0.3263,
+      "line_f1_mean": 0.4125,
+      "utterance_exact_min": 0.2719,
+      "utterance_exact_max": 0.3509
+    }
+  },
+  "parser_latency_ms": {
+    "n": 1440,
+    "p50": 0.111,
+    "p95": 0.174,
+    "max": 0.506
+  }
+}

@@ -1,0 +1,178 @@
+{
+ "schema": 1,
+ "generated_at": "2026-11-11T17:26:29+00:00",
+ "app_version": "2.7.0",
+ "rows": [
+  {
+   "category": "Accounts, sessions and security",
+   "total": 223,
+   "passed": 223,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Sign-up, sign-in, CSRF, route guard, rate limits, injection strings, uploads, order integrity",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Order parser and dialogue",
+   "total": 438,
+   "passed": 438,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Quantities, units, products, branded packs, confirmation flow, noise, 11 languages",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Gnani client (mocked HTTP, not live)",
+   "total": 40,
+   "passed": 40,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Request shapes, headers, error handling and key secrecy against a mock server",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Shop API, data and evaluation files",
+   "total": 127,
+   "passed": 127,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Products, inventory, orders, analytics, seed data, stock movement, evaluation summary",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Voice path, diagnostics and update safety (2.6)",
+   "total": 53,
+   "passed": 53,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Pooled Gnani connection, time limits and retries, reply first and voice after, stage timing, owner-only diagnostics, the .env and database kept on update (mocked Gnani, not live)",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Payments, refunds, invoices and migration (2.7, Razorpay simulated)",
+   "total": 158,
+   "passed": 158,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Cash, hand-confirmed UPI, Razorpay against a stand-in, signatures and webhooks, duplicates, refunds, permissions, the additive migration, secrets (no real Razorpay call)",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Branding, wording and Windows scripts",
+   "total": 64,
+   "passed": 64,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Product name, light theme only, landing-page claims, script structure (cmd.exe itself was not run)",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 15:54 UTC"
+  },
+  {
+   "category": "Front-end tests",
+   "total": 513,
+   "passed": 513,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Components, pages, tables, charts and helpers in jsdom (Vitest); includes the shipped evaluation file contract",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 16:28 UTC"
+  },
+  {
+   "category": "Front-end build",
+   "total": 1,
+   "passed": 1,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "tsc --noEmit (type-check) then vite build (npm run build)",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 16:28 UTC"
+  },
+  {
+   "category": "Real-browser end-to-end checks",
+   "total": 221,
+   "passed": 221,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Chromium on a fresh database: sign-up, order desk, payments and invoices, every page, 20 pages and the payment window at 7 widths, console errors",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 16:34 UTC"
+  },
+  {
+   "category": "Real-browser control sweep",
+   "total": 4,
+   "passed": 4,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Every enabled button and link on the visitor and owner pages",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 16:25 UTC"
+  },
+  {
+   "category": "Dependency audits",
+   "total": 2,
+   "passed": 2,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "npm audit (front end) and pip-audit (back end); advisory databases change daily",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 16:11 UTC"
+  },
+  {
+   "category": "Parser regression check",
+   "total": 288,
+   "passed": 288,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "288 held-out sentences in 4 languages parsed and compared with their gold lines (scripts/evaluate_nlu.py)",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 16:34 UTC"
+  },
+  {
+   "category": "Stock guard",
+   "total": 168,
+   "passed": 168,
+   "failed": 0,
+   "skipped": 0,
+   "status": "Passed",
+   "how": "Every order sentence replayed against an empty shelf and a half-stocked shelf; no stock may go negative",
+   "ran": "Executed in this environment (Linux), log saved 2026-11-11 17:19 UTC"
+  },
+  {
+   "category": "Live Gnani verification",
+   "total": null,
+   "passed": null,
+   "failed": null,
+   "skipped": null,
+   "status": "Not run",
+   "how": "Real Gnani calls: speech synthesis, language code and speech recognition per language (python scripts/verify_gnani.py, about 33 calls)",
+   "ran": "Needs a Gnani API key and network access, which this environment does not have"
+  },
+  {
+   "category": "Razorpay against the real service (test mode)",
+   "total": null,
+   "passed": null,
+   "failed": null,
+   "skipped": null,
+   "status": "Not run",
+   "how": "Create an order, open Checkout, receive a signed webhook and make a refund with your own Razorpay TEST keys (docs/RAZORPAY_SETUP.md)",
+   "ran": "This environment has no Razorpay account and no route to Razorpay; every Razorpay test uses a stand-in written from Razorpay's public documentation as remembered while building, not checked against a live account"
+  },
+  {
+   "category": "Windows scripts run on Windows",
+   "total": null,
+   "passed": null,
+   "failed": null,
+   "skipped": null,
+   "status": "Not run",
+   "how": "setup.bat, start.bat, dev.bat, test.bat, verify_gnani.bat run by cmd.exe",
+   "ran": "cmd.exe is not available here; the scripts were read and their structure is tested (see Branding, wording and Windows scripts)"
+  }
+ ],
+ "note": "Counted from saved logs; nothing here is typed in. 'Not run' means no log exists, not that it passed."
+}
